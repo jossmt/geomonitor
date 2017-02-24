@@ -1,0 +1,10 @@
+include 'controller'
+include 'controller-model'
+include 'controller-mapper'
+include 'persistence'
+include 'integration'
+include 'integration-model'
+include 'integration-mapper'
+include 'persistence-model'
+include 'persistence-mapper'
+
