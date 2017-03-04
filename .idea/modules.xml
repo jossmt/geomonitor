@@ -12,6 +12,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/controller/controller_main.iml" filepath="$PROJECT_DIR$/.idea/modules/controller/controller_main.iml" group="controller" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/controller/controller_test.iml" filepath="$PROJECT_DIR$/.idea/modules/controller/controller_test.iml" group="controller" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/geomonitor.iml" filepath="$PROJECT_DIR$/.idea/modules/geomonitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/geomonitor_main.iml" filepath="$PROJECT_DIR$/.idea/modules/geomonitor_main.iml" group="geomonitor" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/geomonitor_test.iml" filepath="$PROJECT_DIR$/.idea/modules/geomonitor_test.iml" group="geomonitor" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/integration/integration.iml" filepath="$PROJECT_DIR$/.idea/modules/integration/integration.iml" group="integration" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/integration-mapper/integration-mapper.iml" filepath="$PROJECT_DIR$/.idea/modules/integration-mapper/integration-mapper.iml" group="integration-mapper" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/integration-mapper/integration-mapper_main.iml" filepath="$PROJECT_DIR$/.idea/modules/integration-mapper/integration-mapper_main.iml" group="integration-mapper" />
@@ -30,6 +32,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/persistence-model/persistence-model_test.iml" filepath="$PROJECT_DIR$/.idea/modules/persistence-model/persistence-model_test.iml" group="persistence-model" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/persistence/persistence_main.iml" filepath="$PROJECT_DIR$/.idea/modules/persistence/persistence_main.iml" group="persistence" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/persistence/persistence_test.iml" filepath="$PROJECT_DIR$/.idea/modules/persistence/persistence_test.iml" group="persistence" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service/service.iml" filepath="$PROJECT_DIR$/.idea/modules/service/service.iml" group="service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service/service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/service/service_main.iml" group="service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service/service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/service/service_test.iml" group="service" />
     </modules>
   </component>
 </project>

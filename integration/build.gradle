@@ -9,5 +9,7 @@ repositories {
 }
 
 dependencies {
+    compile project (':integration-model')
     testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile "org.glassfish.jersey.core:jersey-client:2.25.1"
 }

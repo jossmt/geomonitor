@@ -8,6 +8,8 @@
       <module name="controller-model_test" target="1.5" />
       <module name="controller_main" target="1.5" />
       <module name="controller_test" target="1.5" />
+      <module name="geomonitor_main" target="1.5" />
+      <module name="geomonitor_test" target="1.5" />
       <module name="integration-mapper_main" target="1.5" />
       <module name="integration-mapper_test" target="1.5" />
       <module name="integration-model_main" target="1.5" />
@@ -20,6 +22,8 @@
       <module name="persistence-model_test" target="1.5" />
       <module name="persistence_main" target="1.5" />
       <module name="persistence_test" target="1.5" />
+      <module name="service_main" target="1.5" />
+      <module name="service_test" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

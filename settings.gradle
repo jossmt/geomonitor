@@ -7,4 +7,5 @@ include 'integration-model'
 include 'integration-mapper'
 include 'persistence-model'
 include 'persistence-mapper'
+include 'service'
 
