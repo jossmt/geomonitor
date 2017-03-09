@@ -12,6 +12,8 @@
     <orderEntry type="module" module-name="service_main" />
     <orderEntry type="module" module-name="integration_main" scope="PROVIDED" />
     <orderEntry type="module" module-name="integration-model_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="domain-model_main" scope="PROVIDED" />
+    <orderEntry type="module" module-name="integration-mapper_main" scope="PROVIDED" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.inject:javax.inject:1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.0.1" level="project" />
     <orderEntry type="library" name="Gradle: junit:junit:4.11" level="project" />

@@ -12,4 +12,5 @@ include 'integration'
 include 'integration'
 include 'integration'
 include 'integration'
+include 'domain-model'
 

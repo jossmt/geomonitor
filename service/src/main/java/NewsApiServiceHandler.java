@@ -1,4 +1,5 @@
 import javax.inject.Inject;
+import java.util.List;
 
 /**
  * Implementation of {@link NewsApiService}
@@ -8,7 +9,10 @@ public class NewsApiServiceHandler implements NewsApiService {
     /**
      * {@link NewsApiIntegrationService}
      */
-    private NewsApiIntegrationService newsApiIntegrationService;
+    private final NewsApiIntegrationService newsApiIntegrationService;
+
+    /** {@link GuardianStoryIntegrationMapper} */
+    private final GuardianStoryIntegrationMapper guardianStoryIntegrationMapper;
 
     /**
      * News api integration service constructor.
@@ -17,21 +21,36 @@ public class NewsApiServiceHandler implements NewsApiService {
      *         News api integration service.
      */
     @Inject
-    public NewsApiServiceHandler(final NewsApiIntegrationService newsApiIntegrationService) {
+    public NewsApiServiceHandler(final GuardianStoryIntegrationMapper guardianStoryIntegrationMapper,
+                                 final NewsApiIntegrationService newsApiIntegrationService) {
+        this.guardianStoryIntegrationMapper = guardianStoryIntegrationMapper;
         this.newsApiIntegrationService = newsApiIntegrationService;
     }
 
     /**
-     * Gets news stories.
-     *
-     * @param source
-     *         Source
-     * @param sortBy
-     *         Sort by.
+     * {@inheritDoc}
      */
-    public GuardianStoriesIntegrationModel getNewsStories(String source, String sortBy) {
+    public List<NewsStoryModel> getNewsStories(ResourceUrls source, NewsCategories category) {
 
-//        final GuardianStoriesIntegrationModel newsStoriesIntegrationModel = newsApiIntegrationService.getNewsFunnel(source, sortBy);
-        return null;
+        //TODO: add logs
+
+        final AbstractResponseIntegrationModel abstractResponseIntegrationModel = newsApiIntegrationService
+                .getNewsFunnel(source, category);
+
+        //TODO: add switch statement by resource
+
+        List<NewsStoryModel> newsStoryModel = null;
+        switch (source) {
+            case THE_GUARDIAN:
+                newsStoryModel = guardianStoryIntegrationMapper.map((GuardianStoriesIntegrationModel)
+                                                                            abstractResponseIntegrationModel);
+                break;
+            default:
+                throw new IllegalStateException("No mapper found for source" + source);
+        }
+
+        //TODO: add logs
+
+        return newsStoryModel;
     }
 }

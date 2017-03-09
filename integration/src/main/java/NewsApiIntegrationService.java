@@ -3,6 +3,8 @@
  */
 
 
+import java.util.List;
+
 /**
  * News api integration service.
  */
@@ -13,5 +15,6 @@ public interface NewsApiIntegrationService {
      *
      * @return abstract response integration model.
      */
-    AbstractResponseIntegrationModel getNewsFunnel(final ResourceUrls resourceUrl, final NewsCategories newsCategoy);
+    AbstractResponseIntegrationModel getNewsFunnel(final ResourceUrls resourceUrl,
+                                                         final NewsCategories newsCategoy);
 }

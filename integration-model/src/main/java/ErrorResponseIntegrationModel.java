@@ -1,13 +1,25 @@
+import javax.ws.rs.core.MultivaluedMap;
+
 /**
  * Error response integration model.
  */
 public class ErrorResponseIntegrationModel extends AbstractResponseIntegrationModel {
 
-    /** Error. */
-    private String error;
+    /** Error headers */
+    private final MultivaluedMap<String, Object> headers;
 
-    /** Error detail. */
-    private String errorDetail;
+    public ErrorResponseIntegrationModel(final Integer httpStatusCode, final MultivaluedMap<String, Object> headers) {
+        setHttpStatus(httpStatusCode);
+        this.headers = headers;
+    }
 
+    /**
+     * Returns error headers.
+     *
+     * @return headers.
+     */
+    public MultivaluedMap<String, Object> getHeaders() {
+        return headers;
+    }
 
 }

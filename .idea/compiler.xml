@@ -8,6 +8,8 @@
       <module name="controller-model_test" target="1.5" />
       <module name="controller_main" target="1.5" />
       <module name="controller_test" target="1.5" />
+      <module name="domain-model_main" target="1.5" />
+      <module name="domain-model_test" target="1.5" />
       <module name="geomonitor_main" target="1.5" />
       <module name="geomonitor_test" target="1.5" />
       <module name="integration-mapper_main" target="1.5" />

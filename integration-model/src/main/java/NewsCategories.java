@@ -4,7 +4,10 @@
 public enum NewsCategories {
 
     STUDENT("/education/students/rss"),
-    UK("/uk/rss")
+    UK("/uk/rss"),
+
+
+    INVALID_CATEGORY("invalid/category/rss")
     ;
 
     /** Value. */
