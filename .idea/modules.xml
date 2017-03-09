@@ -20,7 +20,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/integration-mapper/integration-mapper_test.iml" filepath="$PROJECT_DIR$/.idea/modules/integration-mapper/integration-mapper_test.iml" group="integration-mapper" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/integration-model/integration-model.iml" filepath="$PROJECT_DIR$/.idea/modules/integration-model/integration-model.iml" group="integration-model" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/integration-model/integration-model_main.iml" filepath="$PROJECT_DIR$/.idea/modules/integration-model/integration-model_main.iml" group="integration-model" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/integration-model/integration-model_test.iml" filepath="$PROJECT_DIR$/.idea/modules/integration-model/integration-model_test.iml" group="integration-model" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/integration/integration_main.iml" filepath="$PROJECT_DIR$/.idea/modules/integration/integration_main.iml" group="integration" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/integration/integration_test.iml" filepath="$PROJECT_DIR$/.idea/modules/integration/integration_test.iml" group="integration" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/persistence/persistence.iml" filepath="$PROJECT_DIR$/.idea/modules/persistence/persistence.iml" group="persistence" />

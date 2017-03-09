@@ -8,4 +8,8 @@ include 'integration-mapper'
 include 'persistence-model'
 include 'persistence-mapper'
 include 'service'
+include 'integration'
+include 'integration'
+include 'integration'
+include 'integration'
 
