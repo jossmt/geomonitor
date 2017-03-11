@@ -1,3 +1,6 @@
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
@@ -6,6 +9,9 @@ import javax.ws.rs.core.Response;
  */
 public class NewsApiIntegrationServiceHandler extends ClientResourceConfig implements NewsApiIntegrationService {
 
+    /** Logger. */
+    private static final Logger LOG = LoggerFactory.getLogger(NewsApiIntegrationService.class);
+
     /**
      * {@inheritDoc}
      */
@@ -13,7 +19,7 @@ public class NewsApiIntegrationServiceHandler extends ClientResourceConfig imple
             newsCategory) {
         updateWebTarget(resourceUrl.getValue() + newsCategory.getValue());
 
-        System.out.println("URI: " + webTarget.getUri().toString());
+        LOG.debug("URI: " + webTarget.getUri().toString());
 
         // Send rest request
         final Response response = webTarget.request().accept(MediaType.APPLICATION_XML).get();
@@ -29,6 +35,8 @@ public class NewsApiIntegrationServiceHandler extends ClientResourceConfig imple
             abstractResponseIntegrationModel = new ErrorResponseIntegrationModel(response.getStatus(), response
                     .getHeaders());
         }
+
+        LOG.debug("Returning abstract response integration model {}", abstractResponseIntegrationModel);
 
         return abstractResponseIntegrationModel;
     }

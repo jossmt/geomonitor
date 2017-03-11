@@ -1,8 +1,9 @@
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-import javax.ws.rs.core.MultivaluedMap;
 import java.util.Arrays;
 import java.util.List;
 
@@ -10,6 +11,8 @@ import java.util.List;
  * Test for {@link NewsApiIntegrationService}
  */
 public class NewsApiIntegrationServiceTest {
+
+    private static final Logger LOG = LoggerFactory.getLogger(NewsApiIntegrationServiceTest.class);
 
     /** {@link NewsApiIntegrationService} */
     public NewsApiIntegrationService newsApiIntegrationService;
@@ -36,7 +39,7 @@ public class NewsApiIntegrationServiceTest {
         //Assertion
         for (NewsCategories newsCategory : newsCategories) {
 
-            System.out.println("Testing guardian news service for category: " + newsCategory);
+            System.out.println("Testing guardian news service for category: " + newsCategory + "\n\n");
             final AbstractResponseIntegrationModel abstractResponseIntegrationModel = newsApiIntegrationService
                     .getNewsFunnel(resourceUrl, newsCategory);
 
@@ -46,7 +49,7 @@ public class NewsApiIntegrationServiceTest {
                     (GuardianStoriesIntegrationModel) abstractResponseIntegrationModel)
                     .getGuardianStoryIntegrationModels()) {
 
-                System.out.println(guardianStoryIntegrationModel.toString());
+                LOG.debug(guardianStoryIntegrationModel.toString() + "\n\n");
             }
         }
     }

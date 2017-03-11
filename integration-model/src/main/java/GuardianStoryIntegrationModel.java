@@ -8,7 +8,7 @@ import java.util.List;
  * Article integration model.
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-public class GuardianStoryIntegrationModel extends AbstractResponseIntegrationModel {
+public class GuardianStoryIntegrationModel{
 
     /** Author. */
     @XmlElement(name = "dc:creator")

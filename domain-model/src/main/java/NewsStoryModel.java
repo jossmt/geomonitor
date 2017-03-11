@@ -166,4 +166,17 @@ public class NewsStoryModel {
     public String getCopyRight() {
         return copyRight;
     }
+
+    /**
+     * To string builder
+     */
+    @Override
+    public String toString() {
+
+        final StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append(title).append(author).append(description).append(publishedAt).append(url).append
+                (urlToImage).append(copyRight);
+
+        return stringBuilder.toString();
+    }
 }

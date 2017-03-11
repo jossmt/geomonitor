@@ -1,3 +1,6 @@
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import javax.inject.Inject;
 import java.util.List;
 
@@ -5,6 +8,9 @@ import java.util.List;
  * Implementation of {@link NewsApiService}
  */
 public class NewsApiServiceHandler implements NewsApiService {
+
+    /** Logger. */
+    private static final Logger LOG = LoggerFactory.getLogger(NewsApiService.class);
 
     /**
      * {@link NewsApiIntegrationService}
@@ -32,25 +38,23 @@ public class NewsApiServiceHandler implements NewsApiService {
      */
     public List<NewsStoryModel> getNewsStories(ResourceUrls source, NewsCategories category) {
 
-        //TODO: add logs
+        LOG.debug("Getting news stories for source {} and category {}", source, category);
 
         final AbstractResponseIntegrationModel abstractResponseIntegrationModel = newsApiIntegrationService
                 .getNewsFunnel(source, category);
 
-        //TODO: add switch statement by resource
-
-        List<NewsStoryModel> newsStoryModel = null;
+        List<NewsStoryModel> newsStoryModels = null;
         switch (source) {
             case THE_GUARDIAN:
-                newsStoryModel = guardianStoryIntegrationMapper.map((GuardianStoriesIntegrationModel)
-                                                                            abstractResponseIntegrationModel);
+                newsStoryModels = guardianStoryIntegrationMapper.map((GuardianStoriesIntegrationModel)
+                                                                             abstractResponseIntegrationModel);
                 break;
             default:
                 throw new IllegalStateException("No mapper found for source" + source);
         }
 
-        //TODO: add logs
+        LOG.debug("Returned news story list {}", newsStoryModels);
 
-        return newsStoryModel;
+        return newsStoryModels;
     }
 }

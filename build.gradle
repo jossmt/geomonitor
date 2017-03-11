@@ -4,9 +4,18 @@ apply plugin: 'java'
 
 sourceCompatibility = 1.5
 
-repositories {
-    mavenCentral()
-}
+allprojects {
 
-dependencies {
+    apply plugin: 'java'
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        compile group: 'org.mockito', name: 'mockito-all', version: '1.8.4'
+        compile group: 'ch.qos.logback', name: 'logback-core', version: '1.1.7'
+        compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.1.7'
+        compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.6.1'
+    }
 }
