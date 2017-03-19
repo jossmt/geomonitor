@@ -1,3 +1,10 @@
+import com.geomonitor.jmt.integration.NewsApiIntegrationService;
+import com.geomonitor.jmt.integration.NewsApiIntegrationServiceHandler;
+import com.jmt.geomonitor.integration.model.AbstractResponseIntegrationModel;
+import com.jmt.geomonitor.integration.model.GuardianStoriesIntegrationModel;
+import com.jmt.geomonitor.integration.model.GuardianStoryIntegrationModel;
+import com.jmt.geomonitor.domain.model.NewsCategories;
+import com.jmt.geomonitor.domain.model.ResourceUrls;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -39,7 +46,7 @@ public class NewsApiIntegrationServiceTest {
         //Assertion
         for (NewsCategories newsCategory : newsCategories) {
 
-            System.out.println("Testing guardian news service for category: " + newsCategory + "\n\n");
+            System.out.println("Testing guardian news com.jmt.geomonitor.service for category: " + newsCategory + "\n\n");
             final AbstractResponseIntegrationModel abstractResponseIntegrationModel = newsApiIntegrationService
                     .getNewsFunnel(resourceUrl, newsCategory);
 

@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.jmt.geomonitor.service/com.jmt.geomonitor.service.iml" filepath="$PROJECT_DIR$/.idea/modules/com.jmt.geomonitor.service/com.jmt.geomonitor.service.iml" group="com.jmt.geomonitor.service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.jmt.geomonitor.service/com.jmt.geomonitor.service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.jmt.geomonitor.service/com.jmt.geomonitor.service_main.iml" group="com.jmt.geomonitor.service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.jmt.geomonitor.service/com.jmt.geomonitor.service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.jmt.geomonitor.service/com.jmt.geomonitor.service_test.iml" group="com.jmt.geomonitor.service" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/controller/controller.iml" filepath="$PROJECT_DIR$/.idea/modules/controller/controller.iml" group="controller" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/controller-mapper/controller-mapper.iml" filepath="$PROJECT_DIR$/.idea/modules/controller-mapper/controller-mapper.iml" group="controller-mapper" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/controller-mapper/controller-mapper_main.iml" filepath="$PROJECT_DIR$/.idea/modules/controller-mapper/controller-mapper_main.iml" group="controller-mapper" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/controller-mapper/controller-mapper_test.iml" filepath="$PROJECT_DIR$/.idea/modules/controller-mapper/controller-mapper_test.iml" group="controller-mapper" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/controller-model/controller-model.iml" filepath="$PROJECT_DIR$/.idea/modules/controller-model/controller-model.iml" group="controller-model" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/controller-model/controller-model_main.iml" filepath="$PROJECT_DIR$/.idea/modules/controller-model/controller-model_main.iml" group="controller-model" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/controller-model/controller-model_test.iml" filepath="$PROJECT_DIR$/.idea/modules/controller-model/controller-model_test.iml" group="controller-model" />
@@ -27,9 +27,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/integration/integration_main.iml" filepath="$PROJECT_DIR$/.idea/modules/integration/integration_main.iml" group="integration" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/integration/integration_test.iml" filepath="$PROJECT_DIR$/.idea/modules/integration/integration_test.iml" group="integration" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/persistence/persistence.iml" filepath="$PROJECT_DIR$/.idea/modules/persistence/persistence.iml" group="persistence" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/persistence-mapper/persistence-mapper.iml" filepath="$PROJECT_DIR$/.idea/modules/persistence-mapper/persistence-mapper.iml" group="persistence-mapper" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/persistence-mapper/persistence-mapper_main.iml" filepath="$PROJECT_DIR$/.idea/modules/persistence-mapper/persistence-mapper_main.iml" group="persistence-mapper" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/persistence-mapper/persistence-mapper_test.iml" filepath="$PROJECT_DIR$/.idea/modules/persistence-mapper/persistence-mapper_test.iml" group="persistence-mapper" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/persistence-model/persistence-model.iml" filepath="$PROJECT_DIR$/.idea/modules/persistence-model/persistence-model.iml" group="persistence-model" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/persistence-model/persistence-model_main.iml" filepath="$PROJECT_DIR$/.idea/modules/persistence-model/persistence-model_main.iml" group="persistence-model" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/persistence-model/persistence-model_test.iml" filepath="$PROJECT_DIR$/.idea/modules/persistence-model/persistence-model_test.iml" group="persistence-model" />

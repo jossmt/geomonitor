@@ -10,19 +10,24 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/com.jmt.geomonitor.service" />
             <option value="$PROJECT_DIR$/controller" />
-            <option value="$PROJECT_DIR$/controller-mapper" />
             <option value="$PROJECT_DIR$/controller-model" />
             <option value="$PROJECT_DIR$/domain-model" />
             <option value="$PROJECT_DIR$/integration" />
             <option value="$PROJECT_DIR$/integration-mapper" />
             <option value="$PROJECT_DIR$/integration-model" />
             <option value="$PROJECT_DIR$/persistence" />
-            <option value="$PROJECT_DIR$/persistence-mapper" />
             <option value="$PROJECT_DIR$/persistence-model" />
             <option value="$PROJECT_DIR$/service" />
           </set>
         </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/service" />
+        <option name="gradleJvm" value="1.8" />
         <option name="useAutoImport" value="true" />
       </GradleProjectSettings>
     </option>

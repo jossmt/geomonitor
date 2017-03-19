@@ -1,4 +1,8 @@
-import org.junit.Assert;
+import com.jmt.geomonitor.controller.NewsApiRestController;
+import com.jmt.geomonitor.domain.model.NewsCategories;
+import com.jmt.geomonitor.domain.model.NewsStoryModel;
+import com.jmt.geomonitor.domain.model.ResourceUrls;
+import com.jmt.geomonitor.service.NewsApiService;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -6,12 +10,9 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.runners.MockitoJUnitRunner;
 
-import javax.inject.Inject;
-import javax.ws.rs.core.Response;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Arrays;
-import java.util.List;
 
 /**
  * Test for {@link NewsApiRestController}
@@ -62,14 +63,12 @@ public class NewsApiRestControllerTest {
                 (newsStoryModel));
 
         //Test
-        final Response response = newsApiRestController.getNewsStoriesByCategory("THE_GUARDIAN", "STUDENT");
+        newsApiRestController.getNewsStoriesByCategory("THE_GUARDIAN", "STUDENT");
 
         //Verify
         Mockito.verify(newsApiService).getNewsStories(resourceUrl, newsCategory);
 
         //Assertion
-        final List<NewsStoryModel> newsStoryModels = (List<NewsStoryModel>) response.getEntity();
-        Assert.assertEquals(newsStoryModels.get(0), newsStoryModel);
     }
 
 }
