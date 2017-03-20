@@ -11,12 +11,10 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="com.jmt.geomonitor.service_main" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.mockito:mockito-all:1.8.4" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: ch.qos.logback:logback-core:1.1.7" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: ch.qos.logback:logback-classic:1.1.7" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.slf4j:slf4j-simple:1.6.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.ws.rs:javax.ws.rs-api:2.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.servlet:javax.servlet-api:3.0.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.slf4j:slf4j-api:1.7.20" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.slf4j:slf4j-api:1.6.1" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="com.jmt.geomonitor.service_main" />
 </module>

@@ -1,8 +1,8 @@
-import com.jmt.geomonitor.controller.NewsApiRestController;
+import com.jmt.geomonitor.controller.Temp.NewsApiRestController;
 import com.jmt.geomonitor.domain.model.NewsCategories;
 import com.jmt.geomonitor.domain.model.NewsStoryModel;
 import com.jmt.geomonitor.domain.model.ResourceUrls;
-import com.jmt.geomonitor.service.NewsApiService;
+import com.jmt.geomonitor.service.Class.NewsApiService;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

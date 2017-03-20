@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GuardianStoryIntegrationMapperTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-03-19T18:14:30" hostname="Josss-MBP" time="0.06">
+<testsuite name="GuardianStoryIntegrationMapperTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-03-20T21:39:36" hostname="Josss-MBP" time="0.009">
   <properties/>
-  <testcase name="checkMapper" classname="GuardianStoryIntegrationMapperTest" time="0.06"/>
-  <system-out><![CDATA[18:14:30.774 [Test worker] DEBUG com.jmt.geomonitor.integration.mapper.GuardianStoryIntegrationMapper - Mapping from guardian stories integration model TestCopyRight[TestTitleTestAuthorTestDescriptionTestPublishedAthttp://www.TestUrl.com[http://www.TestUrlImg.com]] to list of news story model
-18:14:30.780 [Test worker] DEBUG com.jmt.geomonitor.integration.mapper.GuardianStoryIntegrationMapper - Successfully mapped to [TestTitleTestAuthorTestDescriptionTestPublishedAthttp://www.TestUrl.com[http://www.TestUrlImg.com]TestCopyRight]
-]]></system-out>
-  <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
-SLF4J: Found binding in [jar:file:/Users/jossmillertodd/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.7/9865cf6994f9ff13fce0bf93f2054ef6c65bb462/logback-classic-1.1.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
-SLF4J: Found binding in [jar:file:/Users/jossmillertodd/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-simple/1.6.1/58e59bfb3e247097b8122243b3bfe0049c8cfae8/slf4j-simple-1.6.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
-SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
-SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
-]]></system-err>
+  <testcase name="checkMapper" classname="GuardianStoryIntegrationMapperTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
 </testsuite>

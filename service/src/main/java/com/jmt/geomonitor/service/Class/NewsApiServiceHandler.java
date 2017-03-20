@@ -1,4 +1,4 @@
-package com.jmt.geomonitor.service;
+package com.jmt.geomonitor.service.Class;
 
 import com.geomonitor.jmt.integration.NewsApiIntegrationService;
 import com.jmt.geomonitor.domain.model.NewsCategories;
@@ -9,6 +9,7 @@ import com.jmt.geomonitor.integration.model.AbstractResponseIntegrationModel;
 import com.jmt.geomonitor.integration.model.GuardianStoriesIntegrationModel;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.inject.Inject;
@@ -17,7 +18,6 @@ import java.util.List;
 /**
  * Implementation of {@link NewsApiService}
  */
-@Service
 public class NewsApiServiceHandler implements NewsApiService {
 
     /** Logger. */
@@ -37,7 +37,7 @@ public class NewsApiServiceHandler implements NewsApiService {
      * @param newsApiIntegrationService
      *         News api integration com.jmt.geomonitor.service.
      */
-    @Inject
+    @Autowired
     public NewsApiServiceHandler(final GuardianStoryIntegrationMapper guardianStoryIntegrationMapper,
                                  final NewsApiIntegrationService newsApiIntegrationService) {
         this.guardianStoryIntegrationMapper = guardianStoryIntegrationMapper;

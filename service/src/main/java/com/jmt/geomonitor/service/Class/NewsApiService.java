@@ -1,4 +1,4 @@
-package com.jmt.geomonitor.service;
+package com.jmt.geomonitor.service.Class;
 
 import com.jmt.geomonitor.domain.model.NewsCategories;
 import com.jmt.geomonitor.domain.model.NewsStoryModel;

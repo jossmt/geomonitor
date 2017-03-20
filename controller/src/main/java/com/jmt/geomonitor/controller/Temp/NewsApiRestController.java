@@ -1,9 +1,9 @@
-package com.jmt.geomonitor.controller;
+package com.jmt.geomonitor.controller.Temp;
 
 import com.jmt.geomonitor.domain.model.NewsCategories;
 import com.jmt.geomonitor.domain.model.NewsStoryModel;
 import com.jmt.geomonitor.domain.model.ResourceUrls;
-import com.jmt.geomonitor.service.NewsApiService;
+import com.jmt.geomonitor.service.Class.NewsApiService;
 import org.apache.commons.lang3.Validate;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,6 +12,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
+
+import javax.inject.Inject;
 import java.util.List;
 import java.util.Map;
 
@@ -70,6 +72,7 @@ public class NewsApiRestController {
         return modelAndView;
 
     }
+
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String index(Map<String, Object> model) {
