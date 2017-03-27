@@ -1,0 +1,8 @@
+2017-03-25_12:01:46.906 [main] DEBUG c.j.g.c.core.NewsApiRestController - Received news stories request with resource GUARDIAN, and category STUDENT
+2017-03-25_12:01:46.922 [main] DEBUG c.j.g.c.core.NewsApiRestController - News story request returned news story models [TestTitleTestAuthorTestDescriptionTestPublishedAthttp://www.TestUrl.com[http://www.TestUrlImg.com]TestCopyRight]
+2017-03-25_14:38:55.595 [main] DEBUG c.j.g.c.core.NewsApiRestController - Received news stories request with resource GUARDIAN, and category STUDENT
+2017-03-25_14:38:55.614 [main] DEBUG c.j.g.c.core.NewsApiRestController - News story request returned news story models [TestTitleTestAuthorTestDescriptionTestPublishedAthttp://www.TestUrl.com[http://www.TestUrlImg.com]TestCopyRight]
+2017-03-25_14:48:08.045 [Test worker] DEBUG c.j.g.c.core.NewsApiRestController - Received news stories request with resource GUARDIAN, and category STUDENT
+2017-03-25_14:48:08.052 [Test worker] DEBUG c.j.g.c.core.NewsApiRestController - News story request returned news story models [TestTitleTestAuthorTestDescriptionTestPublishedAthttp://www.TestUrl.com[http://www.TestUrlImg.com]TestCopyRight]
+2017-03-27_12:15:58.728 [Test worker] DEBUG c.j.g.c.core.NewsApiRestController - Received news stories request with resource GUARDIAN, and category STUDENT
+2017-03-27_12:15:58.738 [Test worker] DEBUG c.j.g.c.core.NewsApiRestController - News story request returned news story models [TestTitleTestAuthorTestDescriptionTestPublishedAthttp://www.TestUrl.com[http://www.TestUrlImg.com]TestCopyRight]

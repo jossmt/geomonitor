@@ -10,4 +10,8 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
+
+
+    compile 'org.apache.deltaspike.modules:deltaspike-data-module-api:1.7.2'
+    compile 'org.apache.deltaspike.modules:deltaspike-data-module-impl:1.7.2'
 }

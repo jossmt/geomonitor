@@ -1,5 +1,5 @@
-import com.geomonitor.jmt.integration.NewsApiIntegrationService;
-import com.geomonitor.jmt.integration.NewsApiIntegrationServiceHandler;
+import com.jmt.geomonitor.integration.core.NewsApiIntegrationService;
+import com.jmt.geomonitor.integration.core.NewsApiIntegrationServiceHandler;
 import com.jmt.geomonitor.integration.model.AbstractResponseIntegrationModel;
 import com.jmt.geomonitor.integration.model.GuardianStoriesIntegrationModel;
 import com.jmt.geomonitor.integration.model.GuardianStoryIntegrationModel;
@@ -15,7 +15,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Test for {@link NewsApiIntegrationService}
+ * config for {@link NewsApiIntegrationService}
  */
 public class NewsApiIntegrationServiceTest {
 
@@ -37,7 +37,7 @@ public class NewsApiIntegrationServiceTest {
     public void checkNewsApiServiceGuardian() {
 
         //Setup
-        final ResourceUrls resourceUrl = ResourceUrls.THE_GUARDIAN;
+        final ResourceUrls resourceUrl = ResourceUrls.GUARDIAN;
         final NewsCategories newsCategoryStudent = NewsCategories.STUDENT;
         final NewsCategories newsCategoryUK = NewsCategories.UK;
 
@@ -46,7 +46,7 @@ public class NewsApiIntegrationServiceTest {
         //Assertion
         for (NewsCategories newsCategory : newsCategories) {
 
-            System.out.println("Testing guardian news com.jmt.geomonitor.service for category: " + newsCategory + "\n\n");
+            System.out.println("Testing GUARDIAN news com.jmt.geomonitor.service for category: " + newsCategory + "\n\n");
             final AbstractResponseIntegrationModel abstractResponseIntegrationModel = newsApiIntegrationService
                     .getNewsFunnel(resourceUrl, newsCategory);
 

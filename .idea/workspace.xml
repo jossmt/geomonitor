@@ -2,12 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee6b1ba0-1a68-4550-a918-a152e30b3093" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_1_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_1_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_20.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/controller/src/main/java/com/jmt/geomonitor/controller/NewsApiRestController.java" afterPath="$PROJECT_DIR$/controller/src/main/java/com/jmt/geomonitor/controller/Temp/NewsApiRestController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service/src/main/java/com/jmt/geomonitor/service/NewsApiService.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/jmt/geomonitor/service/Class/NewsApiService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service/src/main/java/com/jmt/geomonitor/service/NewsApiServiceHandler.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/jmt/geomonitor/service/Class/NewsApiServiceHandler.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_6_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_simple_1_6_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aop_4_0_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_beans_4_2_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_4_0_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_core_4_3_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_expression_4_0_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_web_4_0_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_webmvc_4_0_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com.jmt.geomonitor.service/build/tmp/jar/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller-model/build/tmp/jar/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/reports/tests/test/classes/NewsApiRestControllerTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/reports/tests/test/css/base-style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/reports/tests/test/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/reports/tests/test/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/reports/tests/test/js/report.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/reports/tests/test/packages/default-package.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/test-results/test/TEST-NewsApiRestControllerTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/test-results/test/binary/output.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/test-results/test/binary/output.bin.idx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/build/test-results/test/binary/results.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/spring-mvc-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/integration-mapper/build/reports/tests/test/classes/GuardianStoryIntegrationMapperTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/integration-mapper/build/reports/tests/test/css/base-style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/integration-mapper/build/reports/tests/test/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/integration-mapper/build/reports/tests/test/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/integration-mapper/build/reports/tests/test/js/report.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/integration-mapper/build/reports/tests/test/packages/default-package.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/integration-mapper/build/test-results/test/TEST-GuardianStoryIntegrationMapperTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/integration-mapper/build/test-results/test/binary/output.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/integration-mapper/build/test-results/test/binary/output.bin.idx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/integration-mapper/build/test-results/test/binary/results.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/integration/build/reports/tests/test/classes/NewsApiIntegrationServiceTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/integration/build/reports/tests/test/css/base-style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/integration/build/reports/tests/test/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/integration/build/reports/tests/test/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/integration/build/reports/tests/test/js/report.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/integration/build/reports/tests/test/packages/default-package.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/integration/build/test-results/test/TEST-NewsApiIntegrationServiceTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/integration/build/test-results/test/binary/output.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/integration/build/test-results/test/binary/output.bin.idx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/integration/build/test-results/test/binary/results.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/persistence-model/build/tmp/jar/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/persistence/build/tmp/jar/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/build/reports/tests/test/css/base-style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/build/reports/tests/test/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/build/reports/tests/test/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/build/reports/tests/test/js/report.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/build/test-results/test/binary/output.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/build/test-results/test/binary/output.bin.idx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/service/build/test-results/test/binary/results.bin" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/controller/src/main/java/com/jmt/geomonitor/controller/Temp/NewsApiRestController.java" afterPath="$PROJECT_DIR$/controller/src/main/java/com/jmt/geomonitor/controller/core/NewsApiRestController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/spring-core-config.xml" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/geomonitor-servlet.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/integration/src/main/java/com/geomonitor/jmt/integration/ClientResourceConfig.java" afterPath="$PROJECT_DIR$/integration/src/main/java/com/jmt/geomonitor/integration/core/ClientResourceConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/integration/src/main/java/com/geomonitor/jmt/integration/IntegrationConstants.java" afterPath="$PROJECT_DIR$/integration/src/main/java/com/jmt/geomonitor/integration/core/IntegrationConstants.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/integration/src/main/java/com/geomonitor/jmt/integration/NewsApiIntegrationService.java" afterPath="$PROJECT_DIR$/integration/src/main/java/com/jmt/geomonitor/integration/core/NewsApiIntegrationService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/integration/src/main/java/com/geomonitor/jmt/integration/NewsApiIntegrationServiceHandler.java" afterPath="$PROJECT_DIR$/integration/src/main/java/com/jmt/geomonitor/integration/core/NewsApiIntegrationServiceHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/logback.xml" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/service/src/main/java/com/jmt/geomonitor/service/Class/NewsApiService.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/jmt/geomonitor/service/core/NewsApiService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/service/src/main/java/com/jmt/geomonitor/service/Class/NewsApiServiceHandler.java" afterPath="$PROJECT_DIR$/service/src/main/java/com/jmt/geomonitor/service/core/NewsApiServiceHandler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/fileContent/annotation-processors.bin" afterPath="$PROJECT_DIR$/.gradle/3.4/fileContent/annotation-processors.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/3.4/fileContent/fileContent.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/taskHistory/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.4/taskHistory/fileHashes.bin" />
@@ -15,15 +70,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/taskHistory/jvmClassSignatures.bin" afterPath="$PROJECT_DIR$/.gradle/3.4/taskHistory/jvmClassSignatures.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/3.4/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/3.4/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/test-results/test/binary/output.bin" afterPath="$PROJECT_DIR$/controller/build/test-results/test/binary/output.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/test-results/test/binary/output.bin.idx" afterPath="$PROJECT_DIR$/controller/build/test-results/test/binary/output.bin.idx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/test-results/test/binary/results.bin" afterPath="$PROJECT_DIR$/controller/build/test-results/test/binary/results.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration-mapper/build/test-results/test/binary/output.bin" afterPath="$PROJECT_DIR$/integration-mapper/build/test-results/test/binary/output.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration-mapper/build/test-results/test/binary/output.bin.idx" afterPath="$PROJECT_DIR$/integration-mapper/build/test-results/test/binary/output.bin.idx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration-mapper/build/test-results/test/binary/results.bin" afterPath="$PROJECT_DIR$/integration-mapper/build/test-results/test/binary/results.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration/build/test-results/test/binary/output.bin" afterPath="$PROJECT_DIR$/integration/build/test-results/test/binary/output.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration/build/test-results/test/binary/output.bin.idx" afterPath="$PROJECT_DIR$/integration/build/test-results/test/binary/output.bin.idx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration/build/test-results/test/binary/results.bin" afterPath="$PROJECT_DIR$/integration/build/test-results/test/binary/results.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/com.jmt.geomonitor.service/com.jmt.geomonitor.service_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/com.jmt.geomonitor.service/com.jmt.geomonitor.service_main.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/com.jmt.geomonitor.service/com.jmt.geomonitor.service_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/com.jmt.geomonitor.service/com.jmt.geomonitor.service_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/controller-model/controller-model_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/controller-model/controller-model_main.iml" />
@@ -47,24 +96,26 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/service/service_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/service/service_main.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/service/service_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/service/service_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TomcatDeploy.sh" afterPath="$PROJECT_DIR$/TomcatDeploy.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/reports/tests/test/classes/NewsApiRestControllerTest.html" afterPath="$PROJECT_DIR$/controller/build/reports/tests/test/classes/NewsApiRestControllerTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/reports/tests/test/index.html" afterPath="$PROJECT_DIR$/controller/build/reports/tests/test/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/reports/tests/test/packages/default-package.html" afterPath="$PROJECT_DIR$/controller/build/reports/tests/test/packages/default-package.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build/test-results/test/TEST-NewsApiRestControllerTest.xml" afterPath="$PROJECT_DIR$/controller/build/test-results/test/TEST-NewsApiRestControllerTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build.gradle" afterPath="$PROJECT_DIR$/controller/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/Test/java/NewsApiRestControllerTest.java" afterPath="$PROJECT_DIR$/controller/src/Test/java/NewsApiRestControllerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/spring-core-config.xml" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/spring-core-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/spring-mvc-config.xml" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/spring-mvc-config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration-mapper/build/reports/tests/test/classes/GuardianStoryIntegrationMapperTest.html" afterPath="$PROJECT_DIR$/integration-mapper/build/reports/tests/test/classes/GuardianStoryIntegrationMapperTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration-mapper/build/reports/tests/test/index.html" afterPath="$PROJECT_DIR$/integration-mapper/build/reports/tests/test/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration-mapper/build/reports/tests/test/packages/default-package.html" afterPath="$PROJECT_DIR$/integration-mapper/build/reports/tests/test/packages/default-package.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration-mapper/build/test-results/test/TEST-GuardianStoryIntegrationMapperTest.xml" afterPath="$PROJECT_DIR$/integration-mapper/build/test-results/test/TEST-GuardianStoryIntegrationMapperTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration/build/reports/tests/test/classes/NewsApiIntegrationServiceTest.html" afterPath="$PROJECT_DIR$/integration/build/reports/tests/test/classes/NewsApiIntegrationServiceTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration/build/reports/tests/test/index.html" afterPath="$PROJECT_DIR$/integration/build/reports/tests/test/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration/build/reports/tests/test/packages/default-package.html" afterPath="$PROJECT_DIR$/integration/build/reports/tests/test/packages/default-package.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration/build/test-results/test/TEST-NewsApiIntegrationServiceTest.xml" afterPath="$PROJECT_DIR$/integration/build/test-results/test/TEST-NewsApiIntegrationServiceTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/build/reports/tests/test/index.html" afterPath="$PROJECT_DIR$/service/build/reports/tests/test/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/domain-model/src/main/java/com/jmt/geomonitor/domain/model/NewsCategories.java" afterPath="$PROJECT_DIR$/domain-model/src/main/java/com/jmt/geomonitor/domain/model/NewsCategories.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/domain-model/src/main/java/com/jmt/geomonitor/domain/model/NewsStoryModel.java" afterPath="$PROJECT_DIR$/domain-model/src/main/java/com/jmt/geomonitor/domain/model/NewsStoryModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/domain-model/src/main/java/com/jmt/geomonitor/domain/model/ResourceUrls.java" afterPath="$PROJECT_DIR$/domain-model/src/main/java/com/jmt/geomonitor/domain/model/ResourceUrls.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration-mapper/src/Test/java/GuardianStoryIntegrationMapperTest.java" afterPath="$PROJECT_DIR$/integration-mapper/src/Test/java/GuardianStoryIntegrationMapperTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration-mapper/src/main/java/com/jmt/geomonitor/integration/mapper/GuardianStoryIntegrationMapper.java" afterPath="$PROJECT_DIR$/integration-mapper/src/main/java/com/jmt/geomonitor/integration/mapper/GuardianStoryIntegrationMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration-mapper/src/main/java/com/jmt/geomonitor/integration/mapper/GuardianStoryIntegrationMapperHandler.java" afterPath="$PROJECT_DIR$/integration-mapper/src/main/java/com/jmt/geomonitor/integration/mapper/GuardianStoryIntegrationMapperHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration-model/src/main/java/com/jmt/geomonitor/integration/model/AbstractResponseIntegrationModel.java" afterPath="$PROJECT_DIR$/integration-model/src/main/java/com/jmt/geomonitor/integration/model/AbstractResponseIntegrationModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration-model/src/main/java/com/jmt/geomonitor/integration/model/ErrorResponseIntegrationModel.java" afterPath="$PROJECT_DIR$/integration-model/src/main/java/com/jmt/geomonitor/integration/model/ErrorResponseIntegrationModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration-model/src/main/java/com/jmt/geomonitor/integration/model/GuardianStoriesIntegrationModel.java" afterPath="$PROJECT_DIR$/integration-model/src/main/java/com/jmt/geomonitor/integration/model/GuardianStoriesIntegrationModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration-model/src/main/java/com/jmt/geomonitor/integration/model/GuardianStoryIntegrationModel.java" afterPath="$PROJECT_DIR$/integration-model/src/main/java/com/jmt/geomonitor/integration/model/GuardianStoryIntegrationModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integration/src/test/java/NewsApiIntegrationServiceTest.java" afterPath="$PROJECT_DIR$/integration/src/test/java/NewsApiIntegrationServiceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/persistence-model/build.gradle" afterPath="$PROJECT_DIR$/persistence-model/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/persistence/build.gradle" afterPath="$PROJECT_DIR$/persistence/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/build.gradle" afterPath="$PROJECT_DIR$/service/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -94,6 +145,8 @@
     <ignored path="$PROJECT_DIR$/com.jmt.geomonitor.service/build/" />
     <ignored path="$PROJECT_DIR$/domain-mapper/.gradle/" />
     <ignored path="$PROJECT_DIR$/domain-mapper/build/" />
+    <ignored path="$PROJECT_DIR$/main/.gradle/" />
+    <ignored path="$PROJECT_DIR$/main/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,6 +166,9 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/integration">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/main">
       <ProjectState />
     </projectState>
   </component>
@@ -138,63 +194,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/build.gradle">
+      <file leaf-file-name="UserAccountPersistenceModel.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/persistence-model/src/main/java/com/jmt/geomonitor/persistence/model/UserAccountPersistenceModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="80" lean-forward="false" selection-start-line="24" selection-start-column="80" selection-end-line="24" selection-end-column="80" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-mvc-config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/spring-mvc-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TEST-NewsApiRestControllerTest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/build/test-results/test/TEST-NewsApiRestControllerTest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            <state relative-caret-position="105">
+              <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
               <folding>
-                <marker date="1490046363000" expanded="true" signature="382:397" ph="..." />
+                <element signature="e#436#437#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#590#591#0" expanded="true" />
+                <element signature="e#621#622#0" expanded="true" />
+                <element signature="e#759#760#0" expanded="true" />
+                <element signature="e#791#792#0" expanded="true" />
+                <element signature="e#893#894#0" expanded="true" />
+                <element signature="e#920#921#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewsApiRestController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/jmt/geomonitor/controller/Temp/NewsApiRestController.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/persistence/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-180">
-              <caret line="38" column="14" lean-forward="false" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+            <state relative-caret-position="165">
+              <caret line="14" column="75" lean-forward="false" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/persistence-model/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="77" lean-forward="false" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserAccountRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/persistence/src/main/java/com/jmt/geomonitor/persistence/repository/UserAccountRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -202,41 +245,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+      <file leaf-file-name="UserAccountPersistenceService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/persistence/src/main/java/com/jmt/geomonitor/persistence/service/UserAccountPersistenceService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="74" lean-forward="false" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
+            <state relative-caret-position="30">
+              <caret line="2" column="46" lean-forward="false" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewsApiService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/jmt/geomonitor/service/Class/NewsApiService.java">
+      <file leaf-file-name="UserAccountPersistenceServiceHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/persistence/src/main/java/com/jmt/geomonitor/persistence/service/UserAccountPersistenceServiceHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewsApiServiceHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/jmt/geomonitor/service/Class/NewsApiServiceHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="39" column="14" lean-forward="false" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-core-config.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/spring-core-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="78" lean-forward="false" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
+            <state relative-caret-position="30">
+              <caret line="2" column="49" lean-forward="false" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -309,6 +332,10 @@
               <ExternalProjectPojo>
                 <option name="name" value=":integration-model" />
                 <option name="path" value="$PROJECT_DIR$/integration-model" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":main" />
+                <option name="path" value="$PROJECT_DIR$/main" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value=":persistence" />
@@ -1397,6 +1424,137 @@
             </list>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/main">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':main'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/main" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/main" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':main'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/main" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/main" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':main'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/main" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':main'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/main" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/main" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/main" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/main" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':main'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/main" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/main" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':main'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/main" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/main" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/main" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':main'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/main" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/main" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/main" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/main" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/main" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':main'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/main" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/main" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/main" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/main" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/main" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':main'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/main" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/persistence">
           <value>
             <list>
@@ -1794,7 +1952,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="17880506139000" />
+        <entry key="$PROJECT_DIR$" value="17883205582000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1871,6 +2029,13 @@
                     <value>
                       <ExternalModuleBuildClasspathPojo>
                         <option name="path" value="$PROJECT_DIR$/integration-model" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/main">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/main" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -1992,57 +2157,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/integration-mapper/build.gradle" />
-        <option value="$PROJECT_DIR$/integration-model/build.gradle" />
-        <option value="$PROJECT_DIR$/integration/src/main/java/NewsApiIntegrationService.java" />
-        <option value="$PROJECT_DIR$/integration-mapper/src/main/java/GuardianStoryIntegrationMapper.java" />
-        <option value="$PROJECT_DIR$/integration-model/src/main/java/GuardianStoryIntegrationModel.java" />
-        <option value="$PROJECT_DIR$/integration/src/main/java/ExampleNestedPackage/NewsApiIntegrationServiceHandler.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/NewsApiServiceHandler.java" />
-        <option value="$PROJECT_DIR$/logback.xml" />
-        <option value="$PROJECT_DIR$/service/src/test/java/NewsApiServiceTest.java" />
-        <option value="$PROJECT_DIR$/integration/src/test/java/NewsApiIntegrationServiceTest.java" />
-        <option value="$PROJECT_DIR$/integration-model/src/main/java/GuardianStoriesIntegrationModel.java" />
-        <option value="$PROJECT_DIR$/domain-model/src/main/java/NewsStoryModel.java" />
-        <option value="$PROJECT_DIR$/integration-mapper/src/main/java/GuardianStoryIntegrationMapperHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/web.xml" />
-        <option value="$PROJECT_DIR$/integration/build.gradle" />
-        <option value="$PROJECT_DIR$/integration/src/main/java/NewsApiIntegrationServiceHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Test.jsp" />
-        <option value="$PROJECT_DIR$/src/main/index.html" />
-        <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/tiles.xml" />
-        <option value="$PROJECT_DIR$/controller/src/main/webapp/META-INF/validation.xml" />
-        <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/views/home.jsp" />
-        <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/index.html" />
-        <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/beans.xml" />
-        <option value="$PROJECT_DIR$/controller/src/main/java/NewsApiRestController.java" />
-        <option value="$PROJECT_DIR$/controller/src/main/java/HelloWorldController.java" />
-        <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/controller/src/main/java/com/jmt/geomonitor/HelloWorldController.java" />
-        <option value="$PROJECT_DIR$/controller-model/src/main/java/com/jmt/geomonitor/TestModel.java" />
-        <option value="$PROJECT_DIR$/integration-model/src/main/java/com/jmt/geomonitor/GuardianStoryIntegrationModel.java" />
-        <option value="$PROJECT_DIR$/domain-model/src/main/java/com/jmt/geomonitor/ResourceUrls.java" />
-        <option value="$PROJECT_DIR$/integration/src/main/java/com/geomonitor/jmt/NewsApiIntegrationServiceHandler.java" />
-        <option value="$PROJECT_DIR$/integration/src/main/java/com/geomonitor/jmt/NewsApiIntegrationService.java" />
-        <option value="$PROJECT_DIR$/integration-mapper/src/main/java/com/jmt/geomonitor/GuardianStoryIntegrationMapperHandler.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/jmt/geomonitor/NewsApiServiceHandler.java" />
         <option value="$PROJECT_DIR$/controller/src/main/java/com/jmt/geomonitor/NewsApiRestController.java" />
         <option value="$PROJECT_DIR$/controller/src/main/java/com/jmt/geomonitor/controller/model/NewsApiRestController.java" />
         <option value="$PROJECT_DIR$/integration-mapper/src/main/java/com/jmt/geomonitor/integration/mapper/GuardianStoryIntegrationMapper.java" />
-        <option value="$PROJECT_DIR$/integration-mapper/src/main/java/com/jmt/geomonitor/integration/mapper/GuardianStoryIntegrationMapperHandler.java" />
         <option value="$PROJECT_DIR$/integration-mapper/src/Test/java/GuardianStoryIntegrationMapperTest.java" />
         <option value="$PROJECT_DIR$/controller/src/Test/java/NewsApiRestControllerTest.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/jmt/geomonitor/service/NewsApiServiceHandler.java" />
-        <option value="$PROJECT_DIR$/service/build.gradle" />
-        <option value="$PROJECT_DIR$/TomcatDeploy.sh" />
-        <option value="$PROJECT_DIR$/controller/build.gradle" />
         <option value="$PROJECT_DIR$/controller/src/main/java/com/jmt/geomonitor/controller/NewsApiRestController.java" />
-        <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/controller/src/main/java/com/jmt/geomonitor/controller/Temp/NewsApiRestController.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/jmt/geomonitor/service/Class/NewsApiServiceHandler.java" />
-        <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/spring-mvc-config.xml" />
         <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/spring-core-config.xml" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/spring-mvc-config.xml" />
+        <option value="$PROJECT_DIR$/integration/build.gradle" />
+        <option value="$PROJECT_DIR$/service/build.gradle" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/geomonitor-service.xml" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/geomonitor-data.xml" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/jmt/geomonitor/service/Class/NewsApiServiceHandler.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/jmt/geomonitor/service/Class/NewsApiService.java" />
+        <option value="$PROJECT_DIR$/integration/src/main/java/com/geomonitor/jmt/integration/NewsApiIntegrationServiceHandler.java" />
+        <option value="$PROJECT_DIR$/integration/src/main/java/com/geomonitor/jmt/integration/NewsApiIntegrationService.java" />
+        <option value="$PROJECT_DIR$/integration-model/src/main/java/com/jmt/geomonitor/integration/model/ErrorResponseIntegrationModel.java" />
+        <option value="$PROJECT_DIR$/domain-model/src/main/java/com/jmt/geomonitor/domain/model/NewsStoryModel.java" />
+        <option value="$PROJECT_DIR$/domain-model/src/main/java/com/jmt/geomonitor/domain/model/NewsCategories.java" />
+        <option value="$PROJECT_DIR$/integration-model/src/main/java/com/jmt/geomonitor/integration/model/GuardianStoriesIntegrationModel.java" />
+        <option value="$PROJECT_DIR$/integration-model/src/main/java/com/jmt/geomonitor/integration/model/GuardianStoryIntegrationModel.java" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/geomonitor-dispatcher.xml" />
+        <option value="$PROJECT_DIR$/TomcatDeploy.sh" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/geomonitor-servlet.xml" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/views/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/controller/src/main/java/com/jmt/geomonitor/controller/Temp/NewsApiRestController.java" />
+        <option value="$PROJECT_DIR$/integration-mapper/src/main/java/com/jmt/geomonitor/integration/mapper/GuardianStoryIntegrationMapperHandler.java" />
+        <option value="$PROJECT_DIR$/integration/src/main/java/com/jmt/geomonitor/integration/core/NewsApiIntegrationService.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/jmt/geomonitor/service/core/NewsApiServiceHandler.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/jmt/geomonitor/service/core/NewsApiService.java" />
+        <option value="$PROJECT_DIR$/controller/src/main/resources/log4j.xml" />
+        <option value="$PROJECT_DIR$/main/resources/log4j.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/controller/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/webb.xml" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/domain-model/src/main/java/com/jmt/geomonitor/domain/model/ResourceUrls.java" />
+        <option value="$PROJECT_DIR$/integration/src/main/java/com/jmt/geomonitor/integration/core/NewsApiIntegrationServiceHandler.java" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/views/jsp/NewsDashboard.jsp" />
+        <option value="$PROJECT_DIR$/controller/build.gradle" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/integration/src/test/java/URLReaderTest.java" />
+        <option value="$PROJECT_DIR$/integration/src/main/java/com/jmt/geomonitor/integration/config/URLReader.java" />
+        <option value="$PROJECT_DIR$/controller/src/main/java/com/jmt/geomonitor/controller/core/NewsApiRestController.java" />
+        <option value="$PROJECT_DIR$/persistence/src/main/java/com/jmt/geomonitor/persistence/repository/UserAccount.java" />
+        <option value="$PROJECT_DIR$/persistence-model/src/main/java/com/jmt/geomonitor/persistence/model/UserAccount.java" />
+        <option value="$PROJECT_DIR$/persistence-model/build.gradle" />
+        <option value="$PROJECT_DIR$/persistence/build.gradle" />
+        <option value="$PROJECT_DIR$/persistence/src/main/java/com/jmt/geomonitor/persistence/repository/UserAccountRepository.java" />
+        <option value="$PROJECT_DIR$/persistence-model/src/main/java/com/jmt/geomonitor/persistence/model/UserAccountPersistenceModel.java" />
       </list>
     </option>
   </component>
@@ -2111,8 +2276,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -2136,24 +2299,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geomonitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geomonitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -2168,7 +2313,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
+              <option name="myItemId" value="persistence-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geomonitor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geomonitor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="persistence-model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -2184,6 +2343,54 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geomonitor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geomonitor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="persistence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geomonitor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geomonitor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="persistence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="persistence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -2198,7 +2405,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
+              <option name="myItemId" value="persistence" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -2214,236 +2421,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
+              <option name="myItemId" value="persistence" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Class" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geomonitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geomonitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geomonitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geomonitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geomonitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geomonitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geomonitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geomonitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geomonitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geomonitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geomonitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geomonitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geomonitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geomonitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geomonitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geomonitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Temp" />
+              <option name="myItemId" value="repository" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2454,93 +2443,30 @@
     <property name="findjar.last.used.dir" value="$USER_HOME$/Documents" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
-      <recent name="$PROJECT_DIR$/integration" />
-      <recent name="$PROJECT_DIR$/integration-model/src/main/java" />
-      <recent name="$PROJECT_DIR$/integration-model/src/main" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/views/jsp" />
+      <recent name="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/controller/src/main/resources" />
+      <recent name="$PROJECT_DIR$/controller/src/main" />
+      <recent name="$PROJECT_DIR$/controller/src/main/webapp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ExampleNestedPackage" />
       <recent name="" />
       <recent name="service" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/controller/src/main" />
-      <recent name="$PROJECT_DIR$/controller/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/service" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/integration" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/main/resources" />
+      <recent name="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/views/jsp" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GuardianStoryIntegrationMapperTest.checkMapper">
-    <configuration default="false" name="NewsApiIntegrationServiceTest.checkNewsApiServiceGuardian" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="integration_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NewsApiIntegrationServiceTest" />
-      <option name="METHOD_NAME" value="checkNewsApiServiceGuardian" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/integration" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="NewsApiIntegrationServiceTest.checkInvalidRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="integration_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NewsApiIntegrationServiceTest" />
-      <option name="METHOD_NAME" value="checkInvalidRequest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/integration" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="NewsApiServiceTest.checkLogger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="service_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NewsApiServiceTest" />
-      <option name="METHOD_NAME" value="checkLogger" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/service" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.URLReaderTest.testReader">
     <configuration default="false" name="NewsApiRestControllerTest.checkNewsApiRestControllerResponse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="controller_test" />
@@ -2574,6 +2500,86 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/integration-mapper" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="NewsApiRestController.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.jmt.geomonitor.controller.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="controller_main" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.jmt.geomonitor.controller.core" />
+      <option name="MAIN_CLASS_NAME" value="com.jmt.geomonitor.controller.core.NewsApiRestController" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/controller" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="NewsApiIntegrationServiceHandler.test" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.jmt.geomonitor.integration.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="integration_main" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.jmt.geomonitor.integration.core" />
+      <option name="MAIN_CLASS_NAME" value="com.jmt.geomonitor.integration.core.NewsApiIntegrationServiceHandler" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/integration" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="URLReaderTest.testReader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="integration_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="URLReaderTest" />
+      <option name="METHOD_NAME" value="testReader" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/integration" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -2807,19 +2813,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.NewsApiIntegrationServiceTest.checkNewsApiServiceGuardian" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.NewsApiIntegrationServiceTest.checkInvalidRequest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.NewsApiServiceTest.checkLogger" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.NewsApiRestControllerTest.checkNewsApiRestControllerResponse" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.GuardianStoryIntegrationMapperTest.checkMapper" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.NewsApiRestControllerTest.checkNewsApiRestControllerResponse" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.GuardianStoryIntegrationMapperTest.checkMapper" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.NewsApiRestController.test" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.NewsApiIntegrationServiceHandler.test" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.URLReaderTest.testReader" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.GuardianStoryIntegrationMapperTest.checkMapper" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.NewsApiRestControllerTest.checkNewsApiRestControllerResponse" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.NewsApiIntegrationServiceTest.checkNewsApiServiceGuardian" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.NewsApiServiceTest.checkLogger" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.NewsApiIntegrationServiceTest.checkInvalidRequest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.URLReaderTest.testReader" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.NewsApiIntegrationServiceHandler.test" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.NewsApiRestController.test" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.NewsApiRestControllerTest.checkNewsApiRestControllerResponse" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.GuardianStoryIntegrationMapperTest.checkMapper" />
       </list>
     </recent_temporary>
   </component>
@@ -2837,35 +2843,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GuardianStoryIntegrationMapperTest_checkMapper - 2017.03.11 at 14h 37m 24s.xml">
-      <configuration name="GuardianStoryIntegrationMapperTest.checkMapper" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GuardianStoryIntegrationMapperTest_checkMapper - 2017.03.11 at 14h 38m 43s.xml">
-      <configuration name="GuardianStoryIntegrationMapperTest.checkMapper" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GuardianStoryIntegrationMapperTest_checkMapper - 2017.03.11 at 14h 39m 58s.xml">
-      <configuration name="GuardianStoryIntegrationMapperTest.checkMapper" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GuardianStoryIntegrationMapperTest_checkMapper - 2017.03.11 at 14h 42m 20s.xml">
-      <configuration name="GuardianStoryIntegrationMapperTest.checkMapper" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GuardianStoryIntegrationMapperTest_checkMapper - 2017.03.11 at 14h 42m 42s.xml">
-      <configuration name="GuardianStoryIntegrationMapperTest.checkMapper" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GuardianStoryIntegrationMapperTest_checkMapper - 2017.03.11 at 14h 45m 51s.xml">
-      <configuration name="GuardianStoryIntegrationMapperTest.checkMapper" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GuardianStoryIntegrationMapperTest_checkMapper - 2017.03.11 at 14h 47m 01s.xml">
-      <configuration name="GuardianStoryIntegrationMapperTest.checkMapper" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GuardianStoryIntegrationMapperTest_checkMapper - 2017.03.11 at 14h 47m 59s.xml">
-      <configuration name="GuardianStoryIntegrationMapperTest.checkMapper" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GuardianStoryIntegrationMapperTest_checkMapper - 2017.03.11 at 18h 43m 43s.xml">
-      <configuration name="GuardianStoryIntegrationMapperTest.checkMapper" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NewsApiRestControllerTest_checkNewsApiRestControllerResponse - 2017.03.11 at 14h 41m 35s.xml">
+    <history-entry file="NewsApiRestControllerTest_checkNewsApiRestControllerResponse - 2017.03.25 at 12h 01m 47s.xml">
       <configuration name="NewsApiRestControllerTest.checkNewsApiRestControllerResponse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewsApiRestControllerTest_checkNewsApiRestControllerResponse - 2017.03.25 at 14h 38m 56s.xml">
+      <configuration name="NewsApiRestControllerTest.checkNewsApiRestControllerResponse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewsApiRestController_test - 2017.03.27 at 10h 44m 42s.xml">
+      <configuration name="NewsApiRestController.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="URLReaderTest_testReader - 2017.03.27 at 12h 03m 59s.xml">
+      <configuration name="URLReaderTest.testReader" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="URLReaderTest_testReader - 2017.03.27 at 12h 04m 34s.xml">
+      <configuration name="URLReaderTest.testReader" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="URLReaderTest_testReader - 2017.03.27 at 12h 07m 35s.xml">
+      <configuration name="URLReaderTest.testReader" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="URLReaderTest_testReader - 2017.03.27 at 12h 08m 41s.xml">
+      <configuration name="URLReaderTest.testReader" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="URLReaderTest_testReader - 2017.03.27 at 12h 10m 26s.xml">
+      <configuration name="URLReaderTest.testReader" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="URLReaderTest_testReader - 2017.03.27 at 12h 11m 29s.xml">
+      <configuration name="URLReaderTest.testReader" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="URLReaderTest_testReader - 2017.03.27 at 12h 11m 52s.xml">
+      <configuration name="URLReaderTest.testReader" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -2875,19 +2881,19 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25649914" sideWeight="0.49507388" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25996533" sideWeight="0.49507388" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.65337956" sideWeight="0.50656813" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928944" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5303293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2980936" sideWeight="0.49343187" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.389948" sideWeight="0.49343187" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27339903" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2824302" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922825" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="432" y="57" width="415" height="600" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958949" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2940,7 +2946,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2949,359 +2955,86 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="64" lean-forward="false" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/jmt/geomonitor/controller/Temp/NewsApiRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/spring-core-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="67" lean-forward="false" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/views/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/jmt/geomonitor/service/Class/NewsApiServiceHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="54" lean-forward="false" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/spring-mvc-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/jmt/geomonitor/controller/Temp/NewsApiRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/spring-core-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/jmt/geomonitor/service/Class/NewsApiServiceHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/Test/java/NewsApiRestControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/build/test-results/test/TEST-NewsApiRestControllerTest.xml" />
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/spring-mvc-config.xml" />
     <entry file="file://$PROJECT_DIR$/service/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/integration-mapper/src/main/java/com/jmt/geomonitor/integration/mapper/GuardianStoryIntegrationMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/integration-mapper/src/main/java/com/jmt/geomonitor/integration/mapper/GuardianStoryIntegrationMapperHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="82" lean-forward="false" selection-start-line="14" selection-start-column="82" selection-end-line="14" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="89" lean-forward="false" selection-start-line="17" selection-start-column="89" selection-end-line="17" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/jmt/geomonitor/controller/Temp/NewsApiRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="21" column="49" lean-forward="false" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/jmt/geomonitor/service/Class/NewsApiService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/spring-core-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/jmt/geomonitor/service/Class/NewsApiServiceHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/integration-mapper/src/Test/java/GuardianStoryIntegrationMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="47" column="33" lean-forward="false" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/Test/java/NewsApiRestControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/integration-mapper/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/integration-mapper/src/main/java/com/jmt/geomonitor/integration/mapper/GuardianStoryIntegrationMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/integration-mapper/src/main/java/com/jmt/geomonitor/integration/mapper/GuardianStoryIntegrationMapperHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="82" lean-forward="false" selection-start-line="14" selection-start-column="82" selection-end-line="14" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/integration-mapper/src/Test/java/GuardianStoryIntegrationMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="47" column="33" lean-forward="false" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/integration-mapper/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/integration-mapper/src/main/java/com/jmt/geomonitor/integration/mapper/GuardianStoryIntegrationMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/integration-mapper/src/main/java/com/jmt/geomonitor/integration/mapper/GuardianStoryIntegrationMapperHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="82" lean-forward="false" selection-start-line="14" selection-start-column="82" selection-end-line="14" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/Test/java/NewsApiRestControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TomcatDeploy.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/views/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/resources/core/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/resources/core/css/hello.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/resources/core/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/resources/core/js/hello.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/build/test-results/test/TEST-NewsApiRestControllerTest.xml">
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/geomonitor-service.xml" />
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/geomonitor-data.xml" />
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/geomonitor-dispatcher.xml" />
+    <entry file="file://$PROJECT_DIR$/integration-model/src/main/java/com/jmt/geomonitor/integration/model/ErrorResponseIntegrationModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding>
-            <marker date="1490046363000" expanded="true" signature="382:397" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="80" lean-forward="false" selection-start-line="24" selection-start-column="80" selection-end-line="24" selection-end-column="80" />
+          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/integration-model/src/main/java/com/jmt/geomonitor/integration/model/AbstractResponseIntegrationModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/integration-model/src/main/java/com/jmt/geomonitor/integration/model/GuardianStoriesIntegrationModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/integration-model/src/main/java/com/jmt/geomonitor/integration/model/GuardianStoryIntegrationModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/integration-mapper/src/main/java/com/jmt/geomonitor/integration/mapper/GuardianStoryIntegrationMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/integration-mapper/src/main/java/com/jmt/geomonitor/integration/mapper/GuardianStoryIntegrationMapperHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/integration/src/main/java/com/jmt/geomonitor/integration/core/NewsApiIntegrationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/jmt/geomonitor/service/core/NewsApiServiceHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/jmt/geomonitor/service/core/NewsApiService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/main/resources/log4j.xml" />
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -3310,53 +3043,279 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/Test/java/NewsApiRestControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/webb.xml" />
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TomcatDeploy.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/c:/geomonitor.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain-model/src/main/java/com/jmt/geomonitor/domain/model/ResourceUrls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain-model/src/main/java/com/jmt/geomonitor/domain/model/NewsStoryModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain-model/src/main/java/com/jmt/geomonitor/domain/model/NewsCategories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/integration/src/main/java/com/jmt/geomonitor/integration/core/ClientResourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/integration/src/main/java/com/jmt/geomonitor/integration/core/IntegrationConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/integration/src/main/java/com/jmt/geomonitor/integration/core/NewsApiIntegrationServiceHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-385">
+          <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/views/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="80" column="7" lean-forward="false" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/geomonitor-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/views/jsp/NewsDashboard.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="62" lean-forward="false" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="74" lean-forward="false" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
+        <state relative-caret-position="270">
+          <caret line="18" column="82" lean-forward="false" selection-start-line="18" selection-start-column="82" selection-end-line="18" selection-end-column="82" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/jmt/geomonitor/service/Class/NewsApiService.java">
+    <entry file="file://$PROJECT_DIR$/integration/src/test/java/NewsApiIntegrationServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="75">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/jmt/geomonitor/controller/Temp/NewsApiRestController.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/Properties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret line="38" column="14" lean-forward="false" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+        <state relative-caret-position="184">
+          <caret line="967" column="18" lean-forward="false" selection-start-line="967" selection-start-column="18" selection-end-line="967" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/integration/src/main/java/com/jmt/geomonitor/integration/config/URLReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="75" lean-forward="false" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/jmt/geomonitor/service/Class/NewsApiServiceHandler.java">
+    <entry file="file://$PROJECT_DIR$/integration/src/test/java/URLReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="23" column="69" lean-forward="false" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/integration/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="62" lean-forward="false" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/integration/src/test/resources/temp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1490613363000" expanded="true" signature="10925:11142" ph="..." />
+            <marker date="1490613363000" expanded="true" signature="10925:11148" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/jmt/geomonitor/controller/core/NewsApiRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="98" column="22" lean-forward="false" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/views/jsp/temp.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/persistence/src/main/java/com/jmt/geomonitor/persistence/service/UserAccountPersistenceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="46" lean-forward="false" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/persistence/src/main/java/com/jmt/geomonitor/persistence/service/UserAccountPersistenceServiceHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="49" lean-forward="false" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/persistence-model/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="39" column="14" lean-forward="false" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+          <caret line="15" column="77" lean-forward="false" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/spring-mvc-config.xml">
+    <entry file="file://$PROJECT_DIR$/persistence/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        <state relative-caret-position="165">
+          <caret line="14" column="75" lean-forward="false" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/spring-core-config.xml">
+    <entry file="file://$PROJECT_DIR$/persistence/src/main/java/com/jmt/geomonitor/persistence/repository/UserAccountRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="78" lean-forward="false" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
-          <folding />
+        <state relative-caret-position="180">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/persistence-model/src/main/java/com/jmt/geomonitor/persistence/model/UserAccountPersistenceModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

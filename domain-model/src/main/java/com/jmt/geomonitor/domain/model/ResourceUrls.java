@@ -4,7 +4,7 @@ public enum ResourceUrls {
 
     HTTPS("https://www."),
 
-    THE_GUARDIAN(HTTPS.value + "theguardian.com");
+    GUARDIAN(HTTPS.value + "theguardian.com");
 
     /** Value. */
     private String value;

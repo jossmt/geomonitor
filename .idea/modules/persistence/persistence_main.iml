@@ -10,9 +10,33 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.mockito:mockito-all:1.8.4" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.slf4j:slf4j-simple:1.6.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.ws.rs:javax.ws.rs-api:2.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.servlet:javax.servlet-api:3.0.1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.slf4j:slf4j-api:1.6.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.servlet.jsp:jsp-api:2.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.servlet:jstl:1.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.commons:commons-lang3:3.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework:spring-core:4.1.6.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework:spring-beans:4.1.6.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework:spring-webmvc:4.1.6.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.slf4j:slf4j-api:1.7.7" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: ch.qos.logback:logback-classic:1.1.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: ch.qos.logback:logback-core:1.1.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.deltaspike.modules:deltaspike-data-module-api:1.7.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework:spring-context:4.1.6.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.deltaspike.modules:deltaspike-data-module-impl:1.7.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework:spring-expression:4.1.6.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework:spring-web:4.1.6.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.deltaspike.core:deltaspike-core-api:1.7.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.deltaspike.modules:deltaspike-partial-bean-module-api:1.7.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework:spring-aop:4.1.6.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: aopalliance:aopalliance:1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.deltaspike.core:deltaspike-core-impl:1.7.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.deltaspike.modules:deltaspike-partial-bean-module-impl:1.7.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.deltaspike.modules:deltaspike-jpa-module-impl:1.7.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.deltaspike.modules:deltaspike-proxy-module-api:1.7.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.deltaspike.modules:deltaspike-proxy-module-impl-asm5:1.7.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.deltaspike.modules:deltaspike-jpa-module-api:1.7.2" level="project" />
+    <orderEntry type="module" module-name="persistence-model_main" />
   </component>
 </module>

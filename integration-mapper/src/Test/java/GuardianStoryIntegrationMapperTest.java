@@ -14,7 +14,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Test for {@link GuardianStoryIntegrationMapper}
+ * config for {@link GuardianStoryIntegrationMapper}
  */
 public class GuardianStoryIntegrationMapperTest {
 
@@ -56,7 +56,7 @@ public class GuardianStoryIntegrationMapperTest {
         guardianStoriesIntegrationModel.setGuardianStoryIntegrationModels(Arrays.asList(guardianStoryIntegrationModel));
         guardianStoriesIntegrationModel.setCopyRight("TestCopyRight");
 
-        //Test
+        //config
         final List<NewsStoryModel> newsStoryModelList = guardianStoryIntegrationMapper.map
                 (guardianStoriesIntegrationModel);
 

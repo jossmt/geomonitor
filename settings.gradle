@@ -15,4 +15,5 @@ include 'integration'
 include 'domain-model'
 include 'service'
 include 'integration-mapper'
+include 'main'
 

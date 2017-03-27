@@ -1,5 +1,7 @@
 package com.jmt.geomonitor.domain.model;
 
+import org.springframework.stereotype.Component;
+
 import java.net.URL;
 import java.util.List;
 

@@ -1,5 +1,7 @@
 package com.jmt.geomonitor.domain.model;
 
+import org.springframework.stereotype.Component;
+
 /**
  * News categories.
  */

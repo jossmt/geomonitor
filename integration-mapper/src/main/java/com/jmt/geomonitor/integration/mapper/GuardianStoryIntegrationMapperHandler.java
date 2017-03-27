@@ -5,6 +5,8 @@ import com.jmt.geomonitor.integration.model.GuardianStoriesIntegrationModel;
 import com.jmt.geomonitor.integration.model.GuardianStoryIntegrationModel;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,6 +14,7 @@ import java.util.List;
 /**
  * Implementation of {@link GuardianStoryIntegrationMapper}
  */
+@Component
 public class GuardianStoryIntegrationMapperHandler implements GuardianStoryIntegrationMapper {
 
     /** Logger. */
@@ -22,7 +25,7 @@ public class GuardianStoryIntegrationMapperHandler implements GuardianStoryInteg
      */
     public List<NewsStoryModel> map(GuardianStoriesIntegrationModel guardianStoriesIntegrationModels) {
 
-        LOG.debug("Mapping from guardian stories integration model {} to list of news story model",
+        LOG.debug("Mapping from GUARDIAN stories integration model {} to list of news story model",
                   guardianStoriesIntegrationModels);
 
         List<NewsStoryModel> newsStoryModels = new ArrayList<NewsStoryModel>();

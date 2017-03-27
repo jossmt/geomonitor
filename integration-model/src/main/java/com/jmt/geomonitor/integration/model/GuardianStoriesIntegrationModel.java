@@ -1,6 +1,7 @@
 package com.jmt.geomonitor.integration.model;
 
 import org.eclipse.persistence.oxm.annotations.XmlPath;
+import org.springframework.stereotype.Component;
 
 import javax.xml.bind.annotation.*;
 import java.util.List;
