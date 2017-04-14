@@ -64,7 +64,7 @@ public class NewsApiRestController {
         Validate.notNull(resourceUrl, "The request resource does not exist {}", resource);
         Validate.notNull(newsCategory, "The news category requested is not available {}", category);
 
-        final List<NewsStoryModel> newsStoryModels = newsApiService.getNewsStories(resourceUrl, newsCategory);
+        List<NewsStoryModel> newsStoryModels = newsApiService.getNewsStories(resourceUrl, newsCategory);
 
         LOG.debug("News story request returned news story models {}", newsStoryModels);
 
@@ -94,8 +94,14 @@ public class NewsApiRestController {
     }
 
     @RequestMapping(value = "/temp", method = RequestMethod.GET)
-    public String viewTemp(){
+    public ModelAndView viewTemp(){
 
-        return "temp";
+        final ModelAndView modelAndView = new ModelAndView();
+
+
+        final String htmlResponse = newsApiService.getNewsStory();
+        modelAndView.addObject("story", htmlResponse);
+
+        return modelAndView;
     }
 }

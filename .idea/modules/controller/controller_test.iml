@@ -21,6 +21,7 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.slf4j:slf4j-api:1.7.7" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: ch.qos.logback:logback-classic:1.1.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: ch.qos.logback:logback-core:1.1.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: commons-io:commons-io:2.4" level="project" />
     <orderEntry type="module" module-name="domain-model_main" scope="PROVIDED" />
     <orderEntry type="module" module-name="service_main" scope="PROVIDED" />
     <orderEntry type="library" name="Gradle: junit:junit:4.11" level="project" />
@@ -38,6 +39,7 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.jersey.core:jersey-client:2.24.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.glassfish.jersey.media:jersey-media-jaxb:2.17" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: org.jsoup:jsoup:1.7.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.eclipse.persistence:org.eclipse.persistence.moxy:2.5.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.0.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.0.1" level="project" />

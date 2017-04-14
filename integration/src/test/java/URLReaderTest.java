@@ -1,42 +1,30 @@
+import com.jmt.geomonitor.integration.config.CSSRemovalSelectors;
 import com.jmt.geomonitor.integration.config.URLReader;
-import org.apache.commons.lang3.Validate;
 import org.junit.Test;
 
-import java.io.*;
-import java.util.Properties;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Test for {@link URLReader}
  */
 public class URLReaderTest {
 
-    /** Test url. */
-    private static final String testURL = "http://www.google.com";
-
     /**
      * Tests reader with random url
      */
     @Test
-    public void testReader() {
+    public void testReader() throws MalformedURLException {
 
-        URLReader.readFile(testURL);
+        /** Test url. */
+        final URL testURL = new URL("https://www.theguardian" +
+                                            ".com/world/2017/apr/14/north-korea-blames-donald-trumps-aggression-amid" +
+                                            "-nuclear-test-crisis");
 
-        final File file = new File(System.getProperty("user.dir") + "/src/test/resources/temp.html");
+        final String response = URLReader.readHtml(testURL, CSSRemovalSelectors.guardianSelectors);
 
-        Validate.isTrue(file.isFile());
-
-        try {
-            BufferedReader br = new BufferedReader(new FileReader(file));
-
-            String line;
-            while ((line = br.readLine()) != null) {
-
-                System.out.println(line);
-            }
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        System.out.println(response);
     }
 }

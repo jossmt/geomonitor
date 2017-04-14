@@ -27,5 +27,8 @@ allprojects {
         compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.7'
         compile group: 'ch.qos.logback', name: 'logback-classic', version:'1.1.2'
         compile group: 'ch.qos.logback', name: 'logback-core', version:'1.1.2'
+
+        //apache commons
+        compile group: 'commons-io', name: 'commons-io', version: '2.4'
     }
 }

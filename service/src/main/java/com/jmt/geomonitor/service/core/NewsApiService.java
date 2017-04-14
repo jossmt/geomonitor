@@ -22,4 +22,6 @@ public interface NewsApiService {
      * @return
      */
     List<NewsStoryModel> getNewsStories(final ResourceUrls source, final NewsCategories category);
+
+    String getNewsStory();
 }

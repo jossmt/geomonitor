@@ -1,6 +1,12 @@
 package com.jmt.geomonitor.integration.config;
 
-import java.io.*;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.select.Elements;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -9,34 +15,31 @@ import java.net.URL;
  */
 public class URLReader {
 
+    /** Logger. */
+    private static final Logger LOG = LoggerFactory.getLogger(URLReader.class);
+
     /**
      * Reads file line by line from url and saves in output file.
      *
      * @param url
      *         Source URL.
      */
-    public static void readFile(final String url) {
+    public static String readHtml(final URL url, final String[] cssSelectorList) {
 
-        //Open FileReader and read source url input stream
         try {
-            URL source = new URL(url);
-            BufferedReader br = new BufferedReader(new InputStreamReader(source.openStream()));
+            final Document doc = Jsoup.connect(url.toString()).get();
 
-            File tempFilePath = new File(System.getProperty("user.dir") + "/src/test/resources/temp.html");
+            //remove excess data
+            for (final String elementToRemove : cssSelectorList) {
 
-            FileWriter fileWriter = new FileWriter(tempFilePath);
-            BufferedWriter bw = new BufferedWriter(fileWriter);
+                LOG.debug("Removing element: {}", elementToRemove);
 
-            String line;
-            while ((line = br.readLine()) != null) {
-
-                //Write to output file
-                bw.write(line + "\n");
+                Elements article = doc.select(elementToRemove);
+                article.remove();
             }
 
-            //Close reader and writer
-            br.close();
-            bw.close();
+            //return modified doc
+            return doc.html();
 
         } catch (MalformedURLException e) {
             e.printStackTrace();

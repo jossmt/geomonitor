@@ -1,5 +1,7 @@
 package com.jmt.geomonitor.service.core;
 
+import com.jmt.geomonitor.integration.config.CSSRemovalSelectors;
+import com.jmt.geomonitor.integration.config.URLReader;
 import com.jmt.geomonitor.integration.core.NewsApiIntegrationService;
 import com.jmt.geomonitor.domain.model.NewsCategories;
 import com.jmt.geomonitor.domain.model.NewsStoryModel;
@@ -12,6 +14,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.List;
 
 /**
@@ -67,5 +71,18 @@ public class NewsApiServiceHandler implements NewsApiService {
         LOG.debug("Returned news story list {}", newsStoryModels);
 
         return newsStoryModels;
+    }
+
+    public String getNewsStory() {
+
+        try {
+            return URLReader.readHtml(new URL("https://www.theguardian" +
+                                              ".com/world/2017/apr/14/north-korea-blames-donald-trumps-aggression-amid" +
+                                              "-nuclear-test-crisis"), CSSRemovalSelectors.guardianSelectors);
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        }
+
+        return null;
     }
 }

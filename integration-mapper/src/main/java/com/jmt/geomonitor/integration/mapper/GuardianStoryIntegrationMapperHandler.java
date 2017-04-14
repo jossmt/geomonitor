@@ -1,6 +1,8 @@
 package com.jmt.geomonitor.integration.mapper;
 
 import com.jmt.geomonitor.domain.model.NewsStoryModel;
+import com.jmt.geomonitor.integration.config.CSSRemovalSelectors;
+import com.jmt.geomonitor.integration.config.URLReader;
 import com.jmt.geomonitor.integration.model.GuardianStoriesIntegrationModel;
 import com.jmt.geomonitor.integration.model.GuardianStoryIntegrationModel;
 import org.slf4j.Logger;
@@ -42,6 +44,8 @@ public class GuardianStoryIntegrationMapperHandler implements GuardianStoryInteg
                 newsStoryModel.setUrl(guardianStoryIntegrationModel.getUrl());
                 newsStoryModel.setUrlToImage(guardianStoryIntegrationModel.getUrlToImage());
                 newsStoryModel.setCopyRight(guardianStoriesIntegrationModels.getCopyRight());
+                newsStoryModel.setRawBody(URLReader.readHtml(guardianStoryIntegrationModel.getUrl(),
+                                                             CSSRemovalSelectors.guardianSelectors));
                 newsStoryModels.add(newsStoryModel);
             }
         }
