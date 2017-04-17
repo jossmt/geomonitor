@@ -14,28 +14,41 @@
 
         <!-- Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="resources/core/css/hello.css" type="text/css"/>
+
+<style>
+    .title{
+        font-size: 25px;
+        color: black;
+        font-family: Georgia;
+    }
+</style>
 </head>
 <body>
 <h3>News Stories</h3>
 <hr size="4" color="gray"/>
 
 <div class="panel-group" id="accordion">
-        <c:forEach items="${nList}" var="newsStory">
 
-            <div class="panel panel-default">
-                <div class="panel-heading">
+       <div class="panel panel-default">
+        <c:forEach items="${nList}" var="newsStory" varStatus="theCount">
+
+
+                <div class="panel-heading>
                     <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                            <a id = "title${theCount.index}" class = "title" data-toggle="collapse"
+                            data-parent="#accordion" href="#collapse${theCount.index}" class = "collapsed">
+
                                 <c:out value="${newsStory.title}"/></a>
                     </h4>
                     </div>
-                    <div id="collapse1" class="panel-collapse collapse in">
-                        <div class="panel-body"><c:out value="${newsStory.rawBody}" escapeXml="false"/>
+                        <div id="collapse${theCount.index}" class="panel-collapse collapse">
+                        <div class="panel-body">
                     </div>
                 </div>
-            </div>
-        </c:forEach>
+             </c:forEach>
+         </div>
 </div>
-
 </body>
 </html>

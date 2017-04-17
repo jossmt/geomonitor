@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
@@ -96,11 +97,19 @@ public class NewsApiRestController {
     @RequestMapping(value = "/temp", method = RequestMethod.GET)
     public ModelAndView viewTemp(){
 
+        final NewsStoryModel newsStoryModel = new NewsStoryModel();
+        newsStoryModel.setTitle("Title A");
+        newsStoryModel.setRawBody("DATA A");
+
+        final NewsStoryModel newsStoryModel2 = new NewsStoryModel();
+        newsStoryModel2.setTitle("Title B");
+        newsStoryModel2.setRawBody("DATA B");
+
+        final List<NewsStoryModel> modelList = Arrays.asList(newsStoryModel, newsStoryModel2);
+
         final ModelAndView modelAndView = new ModelAndView();
 
-
-        final String htmlResponse = newsApiService.getNewsStory();
-        modelAndView.addObject("story", htmlResponse);
+        modelAndView.addObject("nList", modelList);
 
         return modelAndView;
     }
