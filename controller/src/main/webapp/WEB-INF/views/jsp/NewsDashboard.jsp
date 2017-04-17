@@ -22,7 +22,6 @@
                     </div>
                         <div id="collapse${theCount.index}" class="panel-collapse collapse">
 
-                            <c:out value="${newsStory.rawBody}" escapeXml="false"/>
                         <div class="panel-body">
                     </div>
                 </div>

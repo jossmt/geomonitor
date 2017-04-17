@@ -32,6 +32,9 @@ public class NewsApiRestController {
     /** {@link NewsApiService} */
     private final NewsApiService newsApiService;
 
+    /** {@link NewsStoryModel} list. */
+    private List<NewsStoryModel> recentlyGeneratedList;
+
     /**
      * News api rest controller.
      *
@@ -99,11 +102,9 @@ public class NewsApiRestController {
 
         final NewsStoryModel newsStoryModel = new NewsStoryModel();
         newsStoryModel.setTitle("Title A");
-        newsStoryModel.setRawBody("DATA A");
 
         final NewsStoryModel newsStoryModel2 = new NewsStoryModel();
         newsStoryModel2.setTitle("Title B");
-        newsStoryModel2.setRawBody("DATA B");
 
         final List<NewsStoryModel> modelList = Arrays.asList(newsStoryModel, newsStoryModel2);
 

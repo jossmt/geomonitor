@@ -22,6 +22,7 @@ allprojects {
         compile group: 'org.springframework', name: 'spring-core', version: '4.1.6.RELEASE'
         compile group: 'org.springframework', name: 'spring-beans', version: '4.1.6.RELEASE'
         compile group: 'org.springframework', name: 'spring-webmvc', version: '4.1.6.RELEASE'
+        compile group: 'org.springframework', name: 'spring-web', version: '4.1.6.RELEASE'
 
         //logger
         compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.7'

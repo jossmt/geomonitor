@@ -29,9 +29,6 @@ public class NewsStoryModel {
     /** Copy right. */
     private String copyRight;
 
-    /** Raw html/css/js body */
-    private String rawBody;
-
 
     /**
      * Sets new Author..
@@ -170,25 +167,6 @@ public class NewsStoryModel {
      */
     public String getCopyRight() {
         return copyRight;
-    }
-
-    /**
-     * Get raw body.
-     *
-     * @return raw response body.
-     */
-    public String getRawBody() {
-        return rawBody;
-    }
-
-    /**
-     * Sets raw response body.
-     *
-     * @param rawBody
-     *         Raw body.
-     */
-    public void setRawBody(final String rawBody) {
-        this.rawBody = rawBody;
     }
 
     /**

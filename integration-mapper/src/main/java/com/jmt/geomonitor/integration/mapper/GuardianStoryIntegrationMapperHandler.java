@@ -44,8 +44,6 @@ public class GuardianStoryIntegrationMapperHandler implements GuardianStoryInteg
                 newsStoryModel.setUrl(guardianStoryIntegrationModel.getUrl());
                 newsStoryModel.setUrlToImage(guardianStoryIntegrationModel.getUrlToImage());
                 newsStoryModel.setCopyRight(guardianStoriesIntegrationModels.getCopyRight());
-                newsStoryModel.setRawBody(URLReader.readHtml(guardianStoryIntegrationModel.getUrl(),
-                                                             CSSRemovalSelectors.guardianSelectors));
                 newsStoryModels.add(newsStoryModel);
             }
         }
