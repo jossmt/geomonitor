@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee6b1ba0-1a68-4550-a918-a152e30b3093" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/resources/core/js/myJQuery.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/src/main/webapp/resources/core/js/hello.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/template/defaultTemplate.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/views/jsp/defaultTemplate.jsp" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/layouts/tiles.xml" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/tiles/tiles-definitions.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/views/jsp/header.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/template/header.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/controller/src/main/webapp/resources/core/css/hello.css" afterPath="$PROJECT_DIR$/controller/src/main/webapp/resources/core/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/fileContent/annotation-processors.bin" afterPath="$PROJECT_DIR$/.gradle/3.4/fileContent/annotation-processors.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/3.4/fileContent/fileContent.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/taskHistory/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.4/taskHistory/fileHashes.bin" />
@@ -11,13 +15,36 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/taskHistory/jvmClassSignatures.bin" afterPath="$PROJECT_DIR$/.gradle/3.4/taskHistory/jvmClassSignatures.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/3.4/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/3.4/taskHistory/taskHistory.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/com.jmt.geomonitor.service/com.jmt.geomonitor.service_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/com.jmt.geomonitor.service/com.jmt.geomonitor.service_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/com.jmt.geomonitor.service/com.jmt.geomonitor.service_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/com.jmt.geomonitor.service/com.jmt.geomonitor.service_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/controller-model/controller-model_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/controller-model/controller-model_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/controller-model/controller-model_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/controller-model/controller-model_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/controller/controller_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/controller/controller_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/controller/controller_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/controller/controller_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/domain-model/domain-model_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/domain-model/domain-model_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/domain-model/domain-model_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/domain-model/domain-model_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/geomonitor_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/geomonitor_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/geomonitor_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/geomonitor_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/integration-mapper/integration-mapper_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/integration-mapper/integration-mapper_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/integration-mapper/integration-mapper_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/integration-mapper/integration-mapper_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/integration-model/integration-model_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/integration-model/integration-model_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/integration-model/integration-model_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/integration-model/integration-model_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/integration/integration_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/integration/integration_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/integration/integration_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/integration/integration_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/main/main_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/main/main_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/main/main_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/main/main_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/persistence-model/persistence-model_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/persistence-model/persistence-model_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/persistence-model/persistence-model_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/persistence-model/persistence-model_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/persistence/persistence_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/persistence/persistence_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/persistence/persistence_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/persistence/persistence_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/service/service_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/service/service_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/service/service_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/service/service_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/java/com/jmt/geomonitor/controller/core/NewsApiRestController.java" afterPath="$PROJECT_DIR$/controller/src/main/java/com/jmt/geomonitor/controller/core/NewsApiRestController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/build.gradle" afterPath="$PROJECT_DIR$/controller/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/geomonitor-servlet.xml" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/geomonitor-servlet.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/views/jsp/NewsDashboard.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/views/jsp/NewsDashboard.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/views/jsp/temp.jsp" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/views/jsp/temp.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/src/main/webapp/resources/core/css/hello.css" afterPath="$PROJECT_DIR$/controller/src/main/webapp/resources/core/css/hello.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/build.gradle" afterPath="$PROJECT_DIR$/service/build.gradle" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -96,16 +123,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NewsApiRestController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/jmt/geomonitor/controller/core/NewsApiRestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1380">
-              <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -116,28 +133,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myJQuery.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/resources/core/js/myJQuery.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="geomonitor-servlet.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/geomonitor-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+            <state relative-caret-position="254">
+              <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="geoHome.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/resources/core/css/geoHome.css">
+      <file leaf-file-name="tiles-definitions.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/tiles/tiles-definitions.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/template/footer.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -146,31 +163,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logback.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/logback.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewsDashboard.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NewsDashboard.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/views/jsp/NewsDashboard.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="24" column="80" lean-forward="false" selection-start-line="24" selection-start-column="80" selection-end-line="24" selection-end-column="80" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hello.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/resources/core/css/hello.css">
+      <file leaf-file-name="defaultTemplate.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/template/defaultTemplate.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="420">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/resources/core/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="23" column="76" lean-forward="false" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -179,7 +206,7 @@
       <file leaf-file-name="temp.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/views/jsp/temp.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
+            <state relative-caret-position="324">
               <caret line="38" column="83" lean-forward="false" selection-start-line="38" selection-start-column="83" selection-end-line="38" selection-end-column="83" />
               <folding />
             </state>
@@ -187,7 +214,7 @@
         </entry>
       </file>
       <file leaf-file-name="header.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/views/jsp/header.jsp">
+        <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/template/header.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1888,7 +1915,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="17893632380000" />
+        <entry key="$PROJECT_DIR$" value="17896535976000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2093,11 +2120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/spring-core-config.xml" />
-        <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/spring-mvc-config.xml" />
-        <option value="$PROJECT_DIR$/service/build.gradle" />
-        <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/geomonitor-service.xml" />
-        <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/geomonitor-data.xml" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/jmt/geomonitor/service/Class/NewsApiServiceHandler.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/jmt/geomonitor/service/Class/NewsApiService.java" />
         <option value="$PROJECT_DIR$/integration/src/main/java/com/geomonitor/jmt/integration/NewsApiIntegrationServiceHandler.java" />
@@ -2123,9 +2145,7 @@
         <option value="$PROJECT_DIR$/persistence/build.gradle" />
         <option value="$PROJECT_DIR$/persistence/src/main/java/com/jmt/geomonitor/persistence/repository/UserAccountRepository.java" />
         <option value="$PROJECT_DIR$/persistence-model/src/main/java/com/jmt/geomonitor/persistence/model/UserAccountPersistenceModel.java" />
-        <option value="$PROJECT_DIR$/controller/build.gradle" />
         <option value="$PROJECT_DIR$/integration/build.gradle" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/integration/src/test/resources/temp.html" />
         <option value="$PROJECT_DIR$/integration/src/main/java/com/jmt/geomonitor/integration/core/NewsApiIntegrationServiceHandler.java" />
         <option value="$PROJECT_DIR$/domain-model/src/main/java/com/jmt/geomonitor/domain/model/NewsStoryModel.java" />
@@ -2139,11 +2159,18 @@
         <option value="$PROJECT_DIR$/controller/src/main/webapp/resources/core/js/Functions.js" />
         <option value="$PROJECT_DIR$/controller/src/main/webapp/resources/core/js/myJQuery.js" />
         <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/controller/src/main/java/com/jmt/geomonitor/controller/core/NewsApiRestController.java" />
         <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/views/jsp/temp.jsp" />
-        <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/geomonitor-servlet.xml" />
         <option value="$PROJECT_DIR$/controller/src/main/webapp/resources/core/css/hello.css" />
+        <option value="$PROJECT_DIR$/service/build.gradle" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/controller/src/main/java/com/jmt/geomonitor/controller/core/NewsApiRestController.java" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/views/jsp/defaultTemplate.jsp" />
+        <option value="$PROJECT_DIR$/controller/build.gradle" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/tiles/tiles-definitions.xml" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/template/header.jsp" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/geomonitor-servlet.xml" />
         <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/views/jsp/NewsDashboard.jsp" />
+        <option value="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/template/defaultTemplate.jsp" />
       </list>
     </option>
   </component>
@@ -2464,6 +2491,14 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -2558,6 +2593,86 @@
               <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geomonitor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geomonitor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geomonitor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geomonitor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -2581,6 +2696,70 @@
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geomonitor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geomonitor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geomonitor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geomonitor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -2593,8 +2772,20 @@
     <property name="findjar.last.used.dir" value="$USER_HOME$/Documents" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/template" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/main/resources" />
+      <recent name="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/views/jsp" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ExampleNestedPackage" />
+      <recent name="" />
+      <recent name="service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/views/jsp" />
@@ -2602,18 +2793,6 @@
       <recent name="$PROJECT_DIR$/controller/src/main/resources" />
       <recent name="$PROJECT_DIR$/controller/src/main" />
       <recent name="$PROJECT_DIR$/controller/src/main/webapp" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ExampleNestedPackage" />
-      <recent name="" />
-      <recent name="service" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/main/resources" />
-      <recent name="$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/views/jsp" />
-      <recent name="$PROJECT_DIR$/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.URLReaderTest.testReader">
@@ -3040,10 +3219,10 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48526862" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26169845" sideWeight="0.49343187" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26169845" sideWeight="0.49343187" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2914614" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2914614" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922825" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="432" y="57" width="415" height="600" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958949" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -3075,21 +3254,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main/resources/log4j.xml" />
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/Test/java/NewsApiRestControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -3198,26 +3362,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="21" column="62" lean-forward="false" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/integration/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="63" lean-forward="false" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -3342,40 +3490,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/views/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="80" column="7" lean-forward="false" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/views/jsp/defaultTemplate.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/resources/core/js/myJQuery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/jmt/geomonitor/controller/core/NewsApiRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -3388,6 +3506,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/views/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="80" column="7" lean-forward="false" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -3396,42 +3522,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/geomonitor-servlet.xml">
+    <entry file="file://$PROJECT_DIR$/service/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        <state relative-caret-position="194">
+          <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/views/jsp/NewsDashboard.jsp">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="259">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/resources/core/css/hello.css">
+    <entry file="file://$PROJECT_DIR$/controller/src/main/java/com/jmt/geomonitor/controller/core/NewsApiRestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="323">
+          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/tiles/tiles-definitions.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="23" column="76" lean-forward="false" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/views/jsp/temp.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
+        <state relative-caret-position="324">
           <caret line="38" column="83" lean-forward="false" selection-start-line="38" selection-start-column="83" selection-end-line="38" selection-end-column="83" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/views/jsp/header.jsp">
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/template/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/template/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/geomonitor-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/resources/core/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/views/jsp/NewsDashboard.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" column="80" lean-forward="false" selection-start-line="24" selection-start-column="80" selection-end-line="24" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/src/main/webapp/WEB-INF/template/defaultTemplate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding />
         </state>
       </provider>
