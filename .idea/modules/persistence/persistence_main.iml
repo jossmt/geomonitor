@@ -25,8 +25,8 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.deltaspike.modules:deltaspike-data-module-api:1.7.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework:spring-context:4.1.6.RELEASE" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.deltaspike.modules:deltaspike-data-module-impl:1.7.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework:spring-expression:4.1.6.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.deltaspike.modules:deltaspike-data-module-impl:1.7.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework:spring-aop:4.1.6.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.deltaspike.core:deltaspike-core-api:1.7.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.deltaspike.modules:deltaspike-partial-bean-module-api:1.7.2" level="project" />

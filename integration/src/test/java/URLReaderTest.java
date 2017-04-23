@@ -19,9 +19,8 @@ public class URLReaderTest {
     public void testReader() throws MalformedURLException {
 
         /** Test url. */
-        final URL testURL = new URL("https://www.theguardian" +
-                                            ".com/world/2017/apr/14/north-korea-blames-donald-trumps-aggression-amid" +
-                                            "-nuclear-test-crisis");
+        final URL testURL = new URL("https://www.theguardian.com/money/2017/apr/23/tory-energy-bill-cap-will-save" +
+                                            "-families-100-damian-green-says");
 
         final String response = URLReader.readHtml(testURL, CSSRemovalSelectors.guardianSelectors);
 

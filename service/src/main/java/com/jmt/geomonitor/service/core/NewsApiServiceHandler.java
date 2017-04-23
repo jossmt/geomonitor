@@ -14,7 +14,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.List;
 
@@ -73,16 +72,14 @@ public class NewsApiServiceHandler implements NewsApiService {
         return newsStoryModels;
     }
 
-    public String getNewsStory() {
+    public String getNewsStory(final URL url) {
 
-        try {
-            return URLReader.readHtml(new URL("https://www.theguardian" +
-                                              ".com/world/2017/apr/14/north-korea-blames-donald-trumps-aggression-amid" +
-                                              "-nuclear-test-crisis"), CSSRemovalSelectors.guardianSelectors);
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
+        if(url.toString().contains(ResourceUrls.GUARDIAN.getValue())){
+
+            return URLReader.readHtml(url, CSSRemovalSelectors.guardianSelectors);
+        }else{
+
+            return URLReader.readHtml(url, null);
         }
-
-        return null;
     }
 }

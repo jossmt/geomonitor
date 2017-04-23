@@ -12,8 +12,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.ws.rs.core.Response;
+import java.net.URL;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
@@ -68,11 +71,11 @@ public class NewsApiRestController {
         Validate.notNull(resourceUrl, "The request resource does not exist {}", resource);
         Validate.notNull(newsCategory, "The news category requested is not available {}", category);
 
-        List<NewsStoryModel> newsStoryModels = newsApiService.getNewsStories(resourceUrl, newsCategory);
+        recentlyGeneratedList = newsApiService.getNewsStories(resourceUrl, newsCategory);
 
-        LOG.debug("News story request returned news story models {}", newsStoryModels);
+        LOG.debug("News story request returned news story models {}", recentlyGeneratedList);
 
-        modelAndView.addObject("nList", newsStoryModels);
+        modelAndView.addObject("nList", recentlyGeneratedList);
         modelAndView.setViewName("NewsDashboard");
 
         return modelAndView;
@@ -91,27 +94,24 @@ public class NewsApiRestController {
 
         LOG.debug("index() is executed!");
 
-        model.put("title", "PersonName");
-        model.put("msg", "Hello PersonName");
-
-        return "index";
+        return "MonitorDashboard";
     }
 
-    @RequestMapping(value = "/temp", method = RequestMethod.GET)
-    public ModelAndView viewTemp(){
+    @RequestMapping(value = "/{id}", method = RequestMethod.GET)
+    public @ResponseBody String viewTemp(@PathVariable final Integer id){
 
-        final NewsStoryModel newsStoryModel = new NewsStoryModel();
-        newsStoryModel.setTitle("Title A");
+        final URL urlResponse;
 
-        final NewsStoryModel newsStoryModel2 = new NewsStoryModel();
-        newsStoryModel2.setTitle("Title B");
+        if(recentlyGeneratedList != null){
 
-        final List<NewsStoryModel> modelList = Arrays.asList(newsStoryModel, newsStoryModel2);
+            urlResponse = recentlyGeneratedList.get(id).getUrl();
 
-        final ModelAndView modelAndView = new ModelAndView();
+        }else{
 
-        modelAndView.addObject("nList", modelList);
+            throw new IllegalArgumentException("Error returning news article");
+        }
 
-        return modelAndView;
+        return newsApiService.getNewsStory(urlResponse);
+
     }
 }

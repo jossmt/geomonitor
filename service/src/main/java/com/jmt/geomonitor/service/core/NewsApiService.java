@@ -5,6 +5,7 @@ import com.jmt.geomonitor.domain.model.NewsStoryModel;
 import com.jmt.geomonitor.domain.model.ResourceUrls;
 import org.springframework.stereotype.Service;
 
+import java.net.URL;
 import java.util.List;
 
 /**
@@ -21,7 +22,14 @@ public interface NewsApiService {
      *         News category.
      * @return
      */
-    List<NewsStoryModel> getNewsStories(final ResourceUrls source, final NewsCategories category);
+    List<NewsStoryModel> getNewsStories(ResourceUrls source, NewsCategories category);
 
-    String getNewsStory();
+    /**
+     * Loads HTML response by url
+     *
+     * @param url
+     *         URL reference of news article.
+     * @return Article in HTML format.
+     */
+    String getNewsStory(URL url);
 }

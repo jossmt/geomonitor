@@ -6,13 +6,16 @@
 <tiles:insertDefinition name="defaultTemplate">
     <tiles:putAttribute name="body">
 
+
+<script src="<c:url value="/resources/js/core.js"/>"></script>
+
 <div class="panel-group" id="accordion">
 
        <div class="panel panel-default">
         <c:forEach items="${nList}" var="newsStory" varStatus="theCount">
 
 
-                <div class="panel-heading>
+                <div class="panel-heading" onclick="findByName(${theCount.index})">
                     <h4 class="panel-title">
                             <a id = "title${theCount.index}" class = "title" data-toggle="collapse"
                             data-parent="#accordion" href="#collapse${theCount.index}" class = "collapsed">

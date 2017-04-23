@@ -3,3 +3,25 @@
     color: black;
     font-family: Georgia;
 }
+
+.w3-bar .w3-button {
+    font-size: 20px;
+}
+
+.ol-dragbox {
+        background-color: rgba(255,255,255,0.4);
+        border-color: rgba(100,150,0,1);
+}
+
+#mapContainer {
+    height: 85%;
+}
+
+.map {
+    margin: auto;
+    margin-top: 52px;
+}
+
+.panel-group {
+    margin-top:50px;
+}
