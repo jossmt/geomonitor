@@ -2,7 +2,13 @@
 
     <property name="DEV_HOME" value="c:/logs"/>
 
-    property name="DEV_HOME" value="c:/logs" />
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>
+                %d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n
+            </Pattern>
+        </layout>
+    </appender>
 
     <appender name="FILE-AUDIT"
               class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -25,14 +31,9 @@
 
     </appender>
 
-    <logger name="STD_OUT" level="DEBUG"
+    <logger name="blah" level="debug"
             additivity="false">
-        <appender-ref ref="FILE-AUDIT" />
+        <appender-ref ref="STDOUT" />
     </logger>
-
-    <root level="DEBUG">
-        <appender-ref ref="FILE-AUDIT" />
-    </root>
-
 
 </configuration>

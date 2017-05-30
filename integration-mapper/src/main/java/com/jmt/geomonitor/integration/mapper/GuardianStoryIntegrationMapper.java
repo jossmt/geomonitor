@@ -1,7 +1,7 @@
 package com.jmt.geomonitor.integration.mapper;
 
-import com.jmt.geomonitor.domain.model.NewsStoryModel;
-import com.jmt.geomonitor.integration.model.GuardianStoriesIntegrationModel;
+import com.jmt.geomonitor.domain.model.news.NewsStoryModel;
+import com.jmt.geomonitor.integration.model.news.GuardianStoriesIntegrationModel;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
 import com.jmt.geomonitor.controller.core.NewsApiRestController;
-import com.jmt.geomonitor.domain.model.NewsCategories;
-import com.jmt.geomonitor.domain.model.NewsStoryModel;
-import com.jmt.geomonitor.domain.model.ResourceUrls;
+import com.jmt.geomonitor.domain.model.news.NewsCategories;
+import com.jmt.geomonitor.domain.model.news.NewsStoryModel;
+import com.jmt.geomonitor.domain.model.news.ResourceUrls;
 import com.jmt.geomonitor.service.core.NewsApiService;
 import org.junit.Before;
 import org.junit.Test;
@@ -23,7 +23,7 @@ public class NewsApiRestControllerTest {
     /** Resource url. */
     private ResourceUrls resourceUrl = ResourceUrls.GUARDIAN;
 
-    /** News category. */
+    /** news category. */
     private NewsCategories newsCategory = NewsCategories.STUDENT;
 
     /** {@link NewsApiService} */
@@ -34,7 +34,7 @@ public class NewsApiRestControllerTest {
     private NewsApiRestController newsApiRestController;
 
     /**
-     * News api rest controller test setup.
+     * news api rest controller test setup.
      */
     @Before
     public void setUp() {

@@ -1,8 +1,8 @@
 package com.jmt.geomonitor.controller.core;
 
-import com.jmt.geomonitor.domain.model.NewsCategories;
-import com.jmt.geomonitor.domain.model.NewsStoryModel;
-import com.jmt.geomonitor.domain.model.ResourceUrls;
+import com.jmt.geomonitor.domain.model.news.NewsCategories;
+import com.jmt.geomonitor.domain.model.news.NewsStoryModel;
+import com.jmt.geomonitor.domain.model.news.ResourceUrls;
 import com.jmt.geomonitor.service.core.NewsApiService;
 import org.apache.commons.lang3.Validate;
 import org.slf4j.Logger;
@@ -15,15 +15,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
-import javax.ws.rs.core.Response;
 import java.net.URL;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
 
 /**
- * News api rest controller.
+ * news api rest controller.
  */
 @Controller
 @RequestMapping(value = "/")
@@ -39,10 +37,10 @@ public class NewsApiRestController {
     private List<NewsStoryModel> recentlyGeneratedList;
 
     /**
-     * News api rest controller.
+     * news api rest controller.
      *
      * @param newsApiService
-     *         News api com.jmt.geomonitor.service.
+     *         news api com.jmt.geomonitor.service.
      */
     @Autowired
     public NewsApiRestController(final NewsApiService newsApiService) {
@@ -73,7 +71,7 @@ public class NewsApiRestController {
 
         recentlyGeneratedList = newsApiService.getNewsStories(resourceUrl, newsCategory);
 
-        LOG.debug("News story request returned news story models {}", recentlyGeneratedList);
+        LOG.debug("news story request returned news story models {}", recentlyGeneratedList);
 
         modelAndView.addObject("nList", recentlyGeneratedList);
         modelAndView.setViewName("NewsDashboard");

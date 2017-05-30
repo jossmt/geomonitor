@@ -1,15 +1,14 @@
 package com.jmt.geomonitor.service.core;
 
-import com.jmt.geomonitor.domain.model.NewsCategories;
-import com.jmt.geomonitor.domain.model.NewsStoryModel;
-import com.jmt.geomonitor.domain.model.ResourceUrls;
-import org.springframework.stereotype.Service;
+import com.jmt.geomonitor.domain.model.news.NewsCategories;
+import com.jmt.geomonitor.domain.model.news.NewsStoryModel;
+import com.jmt.geomonitor.domain.model.news.ResourceUrls;
 
 import java.net.URL;
 import java.util.List;
 
 /**
- * News api com.jmt.geomonitor.service.
+ * news api com.jmt.geomonitor.service.
  */
 public interface NewsApiService {
 
@@ -17,9 +16,9 @@ public interface NewsApiService {
      * Gets all news stories for given source and sort by parameters.
      *
      * @param source
-     *         News Source
+     *         news Source
      * @param category
-     *         News category.
+     *         news category.
      * @return
      */
     List<NewsStoryModel> getNewsStories(ResourceUrls source, NewsCategories category);

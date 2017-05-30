@@ -2,13 +2,13 @@ package com.jmt.geomonitor.service.core;
 
 import com.jmt.geomonitor.integration.config.CSSRemovalSelectors;
 import com.jmt.geomonitor.integration.config.URLReader;
-import com.jmt.geomonitor.integration.core.NewsApiIntegrationService;
-import com.jmt.geomonitor.domain.model.NewsCategories;
-import com.jmt.geomonitor.domain.model.NewsStoryModel;
-import com.jmt.geomonitor.domain.model.ResourceUrls;
+import com.jmt.geomonitor.integration.news.NewsIntegrationService;
+import com.jmt.geomonitor.domain.model.news.NewsCategories;
+import com.jmt.geomonitor.domain.model.news.NewsStoryModel;
+import com.jmt.geomonitor.domain.model.news.ResourceUrls;
 import com.jmt.geomonitor.integration.mapper.GuardianStoryIntegrationMapper;
 import com.jmt.geomonitor.integration.model.AbstractResponseIntegrationModel;
-import com.jmt.geomonitor.integration.model.GuardianStoriesIntegrationModel;
+import com.jmt.geomonitor.integration.model.news.GuardianStoriesIntegrationModel;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,24 +27,24 @@ public class NewsApiServiceHandler implements NewsApiService {
     private static final Logger LOG = LoggerFactory.getLogger(NewsApiService.class);
 
     /**
-     * {@link NewsApiIntegrationService}
+     * {@link NewsIntegrationService}
      */
-    private final NewsApiIntegrationService newsApiIntegrationService;
+    private final NewsIntegrationService newsIntegrationService;
 
     /** {@link GuardianStoryIntegrationMapper} */
     private final GuardianStoryIntegrationMapper guardianStoryIntegrationMapper;
 
     /**
-     * News api integration com.jmt.geomonitor.service constructor.
+     * news api integration com.jmt.geomonitor.service constructor.
      *
-     * @param newsApiIntegrationService
-     *         News api integration com.jmt.geomonitor.service.
+     * @param newsIntegrationService
+     *         news api integration com.jmt.geomonitor.service.
      */
     @Autowired
     public NewsApiServiceHandler(final GuardianStoryIntegrationMapper guardianStoryIntegrationMapper,
-                                 final NewsApiIntegrationService newsApiIntegrationService) {
+                                 final NewsIntegrationService newsIntegrationService) {
         this.guardianStoryIntegrationMapper = guardianStoryIntegrationMapper;
-        this.newsApiIntegrationService = newsApiIntegrationService;
+        this.newsIntegrationService = newsIntegrationService;
     }
 
     /**
@@ -54,7 +54,7 @@ public class NewsApiServiceHandler implements NewsApiService {
 
         LOG.debug("Getting news stories for source {} and category {}", source, category);
 
-        final AbstractResponseIntegrationModel abstractResponseIntegrationModel = newsApiIntegrationService
+        final AbstractResponseIntegrationModel abstractResponseIntegrationModel = newsIntegrationService
                 .getNewsFunnel(source, category);
 
         List<NewsStoryModel> newsStoryModels = null;

@@ -15,6 +15,7 @@ repositories {
 }
 
 dependencies {
+    compile project (':controller')
     compile project (':domain-model')
     compile project (':service')
 

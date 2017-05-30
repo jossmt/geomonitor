@@ -1,3 +1,5 @@
+var infoBox = document.getElementById('info');
+
 var vectorSource = new ol.source.Vector({
                 url: 'https://openlayers.org/en/v4.1.0/examples/data/geojson/countries.geojson',
                 format: new ol.format.GeoJSON()
@@ -28,14 +30,17 @@ var map = new ol.Map({
 
   var selectedFeatures = select.getFeatures();
 
+  var selectPointerMove = new ol.interaction.Select({
+          condition: ol.events.condition.pointerMove
+    });
+    map.addInteraction(selectPointerMove);
+
   // a DragBox interaction used to select features by drawing boxes
   var dragBox = new ol.interaction.DragBox({
     condition: ol.events.condition.platformModifierKeyOnly
     });
 
     map.addInteraction(dragBox);
-
-    var infoBox = document.getElementById('info');
 
     dragBox.on('boxend', function() {
         // features that intersect the box are added to the collection of
@@ -62,8 +67,8 @@ var map = new ol.Map({
     map.on('click', function(e) {
         selectedFeatures.clear();
         infoBox.innerHTML = '&nbsp;';
-        var coordinate = this.getLonLatFromPixel(e.xy);
-        vectorSource.getClosestFeatureToCoordinate(coordinate, function(feature){
-            info.push(feature.get('name'));
+        var pixel = map.getPixelFromCoordinate(e.coordinate);
+        map.forEachFeatureAtPixel(pixel, function(feature) {
+                infoBox.innerHTML = feature.get('name');
         });
 });

@@ -9,6 +9,7 @@ repositories {
 }
 
 dependencies {
+    compile project (':integration-mapper')
     compile project (':integration')
     compile project (':domain-model')
     compile project (':integration-model')
