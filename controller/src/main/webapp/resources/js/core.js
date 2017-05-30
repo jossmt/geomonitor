@@ -2,7 +2,8 @@ function findByName(searchKey) {
 
     if($('#title' + searchKey).attr('aria-expanded') == "true"){
 
-        $('#collapse'+id).empty();
+        $('#collapse'+searchKey).html('');
+
     }else{
 
     $.ajax({
