@@ -1,37 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="com.jmt.geomonitor.service_main" target="1.8" />
       <module name="com.jmt.geomonitor.service_test" target="1.8" />
-      <module name="controller-mapper_main" target="1.5" />
-      <module name="controller-mapper_test" target="1.5" />
-      <module name="controller-model_main" target="1.5" />
-      <module name="controller-model_test" target="1.5" />
-      <module name="controller_main" target="1.5" />
-      <module name="controller_test" target="1.5" />
-      <module name="domain-mapper_main" target="1.8" />
-      <module name="domain-mapper_test" target="1.8" />
-      <module name="domain-model_main" target="1.5" />
-      <module name="domain-model_test" target="1.5" />
-      <module name="geomonitor_main" target="1.5" />
-      <module name="geomonitor_test" target="1.5" />
-      <module name="integration-mapper_main" target="1.5" />
-      <module name="integration-mapper_test" target="1.5" />
-      <module name="integration-model_main" target="1.5" />
-      <module name="integration-model_test" target="1.5" />
-      <module name="integration_main" target="1.5" />
-      <module name="integration_test" target="1.5" />
+      <module name="controller-model_main" target="1.8" />
+      <module name="controller-model_test" target="1.8" />
+      <module name="controller_main" target="1.8" />
+      <module name="controller_test" target="1.8" />
+      <module name="domain-model_main" target="1.8" />
+      <module name="domain-model_test" target="1.8" />
+      <module name="geomonitor_main" target="1.8" />
+      <module name="geomonitor_test" target="1.8" />
+      <module name="integration-mapper_main" target="1.8" />
+      <module name="integration-mapper_test" target="1.8" />
+      <module name="integration-model_main" target="1.8" />
+      <module name="integration-model_test" target="1.8" />
+      <module name="integration_main" target="1.8" />
+      <module name="integration_test" target="1.8" />
       <module name="main_main" target="1.8" />
       <module name="main_test" target="1.8" />
-      <module name="persistence-mapper_main" target="1.5" />
-      <module name="persistence-mapper_test" target="1.5" />
-      <module name="persistence-model_main" target="1.5" />
-      <module name="persistence-model_test" target="1.5" />
-      <module name="persistence_main" target="1.5" />
-      <module name="persistence_test" target="1.5" />
-      <module name="service_main" target="1.5" />
-      <module name="service_test" target="1.5" />
+      <module name="persistence-mapper_main" target="1.8" />
+      <module name="persistence-mapper_test" target="1.8" />
+      <module name="persistence-model_main" target="1.8" />
+      <module name="persistence-model_test" target="1.8" />
+      <module name="persistence_main" target="1.8" />
+      <module name="persistence_test" target="1.8" />
+      <module name="service_main" target="1.8" />
+      <module name="service_test" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="GENERATE_NO_WARNINGS" value="true" />
   </component>
 </project>

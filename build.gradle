@@ -1,8 +1,10 @@
 apply plugin: 'java'
 
-sourceCompatibility = 1.5
 
 allprojects {
+
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
 
     apply plugin: 'java'
 
@@ -17,14 +19,14 @@ allprojects {
         compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.0'
 
         //spring
-        compile group: 'org.springframework', name: 'spring-news', version: '4.1.6.RELEASE'
+        compile group: 'org.springframework', name: 'spring-core', version: '4.1.6.RELEASE'
         compile group: 'org.springframework', name: 'spring-beans', version: '4.1.6.RELEASE'
         compile group: 'org.springframework', name: 'spring-webmvc', version: '4.1.6.RELEASE'
         compile group: 'org.springframework', name: 'spring-web', version: '4.1.6.RELEASE'
 
         //logger
         compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.7'
-        compile group: 'ch.qos.logback', name: 'logback-news', version:'1.1.2'
+        compile group: 'ch.qos.logback', name: 'logback-core', version:'1.1.2'
 
         //apache commons
         compile group: 'commons-io', name: 'commons-io', version: '2.4'

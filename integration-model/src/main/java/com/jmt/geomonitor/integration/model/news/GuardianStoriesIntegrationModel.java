@@ -3,11 +3,13 @@ package com.jmt.geomonitor.integration.model.news;
 import com.jmt.geomonitor.integration.model.AbstractResponseIntegrationModel;
 import org.eclipse.persistence.oxm.annotations.XmlPath;
 
+import javax.ws.rs.Consumes;
+import javax.ws.rs.core.MediaType;
 import javax.xml.bind.annotation.*;
 import java.util.List;
 
 /**
- * news story integration model.
+ * com.jmt.geomonitor.integration.news story integration model.
  */
 @XmlRootElement(name = "rss")
 @XmlAccessorType(XmlAccessType.FIELD)
@@ -71,4 +73,5 @@ public class GuardianStoriesIntegrationModel extends AbstractResponseIntegration
 
         return stringBuilder.toString();
     }
+
 }

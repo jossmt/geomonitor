@@ -8,14 +8,12 @@ war{
 }
 
 
-sourceCompatibility = 1.5
-
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    compile project (':controller')
+    testCompile project (':controller')
     compile project (':domain-model')
     compile project (':service')
 

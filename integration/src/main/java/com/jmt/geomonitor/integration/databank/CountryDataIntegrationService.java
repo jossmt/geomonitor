@@ -1,6 +1,5 @@
 package com.jmt.geomonitor.integration.databank;
 
-import com.jmt.geomonitor.integration.model.AbstractResponseIntegrationModel;
 import com.jmt.geomonitor.integration.model.databank.CountryDataIntegrationModel;
 
 /**
@@ -16,5 +15,5 @@ public interface CountryDataIntegrationService {
      *         Country to fetch data for.
      * @return {@link CountryDataIntegrationModel}
      */
-    AbstractResponseIntegrationModel fetchCountryData(String country);
+    CountryDataIntegrationModel fetchCountryData(String country);
 }

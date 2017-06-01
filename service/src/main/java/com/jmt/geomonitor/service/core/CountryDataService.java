@@ -1,6 +1,6 @@
 package com.jmt.geomonitor.service.core;
 
-import com.jmt.geomonitor.domain.model.databank.CountryData;
+import com.jmt.geomonitor.domain.model.databank.CountryDataModel;
 
 /**
  * Data bank service.
@@ -12,7 +12,7 @@ public interface CountryDataService {
      *
      * @param country
      *         Country name.
-     * @return CountryData domain model.
+     * @return CountryDataModel domain model.
      */
-    CountryData fetchCountryInformationby(String country);
+    CountryDataModel fetchCountryInformationBy(String country);
 }

@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Country data integration model.
  */
-public class CountryDataIntegrationModel extends AbstractResponseIntegrationModel{
+public class CountryDataIntegrationModel extends AbstractResponseIntegrationModel {
 
     /** Name. */
     private String name;
@@ -33,7 +33,7 @@ public class CountryDataIntegrationModel extends AbstractResponseIntegrationMode
 
     /** URL of flag. */
     @JsonProperty("flag")
-    private String flagURL;
+    private String flag;
 
 
     /**
@@ -141,18 +141,18 @@ public class CountryDataIntegrationModel extends AbstractResponseIntegrationMode
      *
      * @return Value of URL of flag..
      */
-    public String getFlagURL() {
-        return flagURL;
+    public String getFlag() {
+        return flag;
     }
 
     /**
      * Sets new URL of flag..
      *
-     * @param flagURL
+     * @param flag
      *         New value of URL of flag..
      */
-    public void setFlagURL(String flagURL) {
-        this.flagURL = flagURL;
+    public void setFlag(String flag) {
+        this.flag = flag;
     }
 
 
@@ -173,5 +173,17 @@ public class CountryDataIntegrationModel extends AbstractResponseIntegrationMode
      */
     public void setLanguages(List<LanguageIntegrationModel> languages) {
         this.languages = languages;
+    }
+
+    @Override
+    public String toString() {
+
+        final StringBuilder toStringBuilder = new StringBuilder();
+
+        toStringBuilder.append(name).append(alpha2Code).append(alpha3Code).append(capital).append(currencies).append
+                (languages).append(flag);
+
+        return toStringBuilder.toString();
+
     }
 }

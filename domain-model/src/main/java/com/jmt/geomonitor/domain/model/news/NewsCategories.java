@@ -1,7 +1,7 @@
 package com.jmt.geomonitor.domain.model.news;
 
 /**
- * news categories.
+ * com.jmt.geomonitor.integration.news categories.
  */
 public enum NewsCategories {
 
@@ -16,7 +16,7 @@ public enum NewsCategories {
     private String value;
 
     /**
-     * news categories enum constructor.
+     * com.jmt.geomonitor.integration.news categories enum constructor.
      *
      * @param value
      */

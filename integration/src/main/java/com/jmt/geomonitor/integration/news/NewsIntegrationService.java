@@ -6,12 +6,12 @@ import com.jmt.geomonitor.domain.model.news.NewsCategories;
 import com.jmt.geomonitor.domain.model.news.ResourceUrls;
 
 /**
- * news api integration com.jmt.geomonitor.service.
+ * com.jmt.geomonitor.integration.news api integration com.jmt.geomonitor.service.
  */
 public interface NewsIntegrationService {
 
     /**
-     * Funnels bbc news data.
+     * Funnels bbc com.jmt.geomonitor.integration.news data.
      *
      * @return abstract response integration model.
      */

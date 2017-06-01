@@ -2,7 +2,7 @@ import com.jmt.geomonitor.controller.core.NewsApiRestController;
 import com.jmt.geomonitor.domain.model.news.NewsCategories;
 import com.jmt.geomonitor.domain.model.news.NewsStoryModel;
 import com.jmt.geomonitor.domain.model.news.ResourceUrls;
-import com.jmt.geomonitor.service.core.NewsApiService;
+import com.jmt.geomonitor.service.core.NewsService;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -26,9 +26,9 @@ public class NewsApiRestControllerTest {
     /** news category. */
     private NewsCategories newsCategory = NewsCategories.STUDENT;
 
-    /** {@link NewsApiService} */
+    /** {@link NewsService} */
     @Mock
-    private NewsApiService newsApiService;
+    private NewsService newsService;
 
     /** {@link NewsApiRestController} */
     private NewsApiRestController newsApiRestController;
@@ -38,7 +38,7 @@ public class NewsApiRestControllerTest {
      */
     @Before
     public void setUp() {
-        newsApiRestController = new NewsApiRestController(newsApiService);
+        newsApiRestController = new NewsApiRestController(newsService);
 
     }
 
@@ -59,16 +59,14 @@ public class NewsApiRestControllerTest {
         newsStoryModel.setPublishedAt("TestPublishedAt");
 
         //Mock
-        Mockito.when(newsApiService.getNewsStories(resourceUrl, newsCategory)).thenReturn(Arrays.asList
+        Mockito.when(newsService.getNewsStories(resourceUrl, newsCategory)).thenReturn(Arrays.asList
                 (newsStoryModel));
 
         //config
         newsApiRestController.getNewsStoriesByCategory("GUARDIAN", "STUDENT");
 
         //Verify
-        Mockito.verify(newsApiService).getNewsStories(resourceUrl, newsCategory);
-
-        //Assertion
+        Mockito.verify(newsService).getNewsStories(resourceUrl, newsCategory);
     }
 
 }

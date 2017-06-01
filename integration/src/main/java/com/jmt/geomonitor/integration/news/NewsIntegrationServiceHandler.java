@@ -37,7 +37,7 @@ public class NewsIntegrationServiceHandler extends ClientResourceConfig implemen
         final AbstractResponseIntegrationModel abstractResponseIntegrationModel;
         if (response.getStatus() == 200 || response.getStatus() == 201) {
 
-            //TODO: add switch statement by news com.jmt.geomonitor.service
+            //TODO: add switch statement by com.jmt.geomonitor.integration.news service
             abstractResponseIntegrationModel = response.readEntity(GuardianStoriesIntegrationModel.class);
 
         } else {

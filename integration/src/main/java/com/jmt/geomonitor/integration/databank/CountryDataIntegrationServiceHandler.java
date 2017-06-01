@@ -2,19 +2,21 @@ package com.jmt.geomonitor.integration.databank;
 
 import com.jmt.geomonitor.integration.IntegrationConstants;
 import com.jmt.geomonitor.integration.config.ClientResourceConfig;
-import com.jmt.geomonitor.integration.model.AbstractResponseIntegrationModel;
-import com.jmt.geomonitor.integration.model.ErrorResponseIntegrationModel;
 import com.jmt.geomonitor.integration.model.databank.CountryDataIntegrationModel;
-import com.jmt.geomonitor.integration.model.databank.CountryDataIntegrationModelWrapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Service;
 
+import javax.ws.rs.core.GenericType;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import java.util.List;
 
 /**
  * Implementation of {@link CountryDataIntegrationService}
  */
+
+@Service
 public class CountryDataIntegrationServiceHandler extends ClientResourceConfig implements
         CountryDataIntegrationService {
 
@@ -24,7 +26,7 @@ public class CountryDataIntegrationServiceHandler extends ClientResourceConfig i
     /**
      * {@inheritDoc}
      */
-    public AbstractResponseIntegrationModel fetchCountryData(final String country) {
+    public CountryDataIntegrationModel fetchCountryData(final String country) {
 
         LOG.debug("Fetching country data for : {}", country);
 
@@ -36,23 +38,23 @@ public class CountryDataIntegrationServiceHandler extends ClientResourceConfig i
         // Send rest request
         final Response response = webTarget.request().accept(MediaType.APPLICATION_JSON).get();
 
-        final AbstractResponseIntegrationModel abstractResponseIntegrationModel;
+        final List<CountryDataIntegrationModel> countryDataIntegrationModels;
         if (response.getStatus() == 200 || response.getStatus() == 201) {
 
-            abstractResponseIntegrationModel = response.readEntity
-                    (CountryDataIntegrationModelWrapper.class);
+            countryDataIntegrationModels = response.readEntity
+                    (new GenericType<List<CountryDataIntegrationModel>>() {
+                    });
 
             LOG.debug("Successfully returned Country data.");
-            LOG.trace("Country data integration model: {}", abstractResponseIntegrationModel);
+            LOG.trace("Country data integration model: {}", countryDataIntegrationModels);
         } else {
 
-            abstractResponseIntegrationModel = response.readEntity
-                    (ErrorResponseIntegrationModel.class);
-
             LOG.debug("Returning error response");
-            LOG.trace("Error response: {}", abstractResponseIntegrationModel);
+            throw new IllegalArgumentException("Error returned accessing country information");
+
         }
 
-        return abstractResponseIntegrationModel;
+
+        return countryDataIntegrationModels.get(0);
     }
 }

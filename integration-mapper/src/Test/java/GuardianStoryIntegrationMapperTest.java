@@ -1,7 +1,7 @@
 
 import com.jmt.geomonitor.domain.model.news.NewsStoryModel;
-import com.jmt.geomonitor.integration.mapper.GuardianStoryIntegrationMapper;
-import com.jmt.geomonitor.integration.mapper.GuardianStoryIntegrationMapperHandler;
+import com.jmt.geomonitor.integration.mapper.news.GuardianStoryIntegrationMapper;
+import com.jmt.geomonitor.integration.mapper.news.GuardianStoryIntegrationMapperHandler;
 import com.jmt.geomonitor.integration.model.news.GuardianStoriesIntegrationModel;
 import com.jmt.geomonitor.integration.model.news.GuardianStoryIntegrationModel;
 import org.junit.Assert;

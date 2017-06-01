@@ -4,7 +4,7 @@ import java.net.URL;
 import java.util.List;
 
 /**
- * news story model.
+ * com.jmt.geomonitor.integration.news story model.
  */
 public class NewsStoryModel {
 

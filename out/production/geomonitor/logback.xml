@@ -31,19 +31,9 @@
 
     </appender>
 
-    <logger name="STD_OUT" level="DEBUG"
+    <logger name="blah" level="debug"
             additivity="false">
         <appender-ref ref="STDOUT" />
     </logger>
-
-    <logger name="STD_OUT" level="DEBUG"
-            additivity="false">
-        <appender-ref ref="FILE-AUDIT" />
-    </logger>
-
-
-    <root level="DEBUG">
-        <appender-ref ref="STDOUT" />
-    </root>
 
 </configuration>

@@ -25,6 +25,7 @@
     <div id="mapContainer" style="text-align: center">
         <div id="map" class="map"></div>
         <div id="info">No countries selected</div>
+        <div id="countryInfo"></div>
     </div>
 
     <script src="<c:url value="/resources/js/defaultMap.js"/>"></script>
