@@ -12,20 +12,22 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
+import java.net.URL;
 import java.util.List;
 
 
 /**
- * com.jmt.geomonitor.integration.news api rest controller.
+ * news api rest controller.
  */
 @Controller
 @RequestMapping(value = "/")
-public class NewsApiRestController {
+public class NewsController {
 
     /** Logger. */
-    private static final Logger LOG = LoggerFactory.getLogger(NewsApiRestController.class);
+    private static final Logger LOG = LoggerFactory.getLogger(NewsController.class);
 
     /** {@link NewsService} */
     private final NewsService newsService;
@@ -34,18 +36,18 @@ public class NewsApiRestController {
     private List<NewsStoryModel> recentlyGeneratedList;
 
     /**
-     * com.jmt.geomonitor.integration.news api rest controller.
+     * api rest controller.
      *
      * @param newsService
-     *         com.jmt.geomonitor.integration.news api com.jmt.geomonitor.service.
+     *         news api service.
      */
     @Autowired
-    public NewsApiRestController(final NewsService newsService) {
+    public NewsController(final NewsService newsService) {
         this.newsService = newsService;
     }
 
     /**
-     * Returns com.jmt.geomonitor.integration.news stories with resource and category funnel
+     * Returns news stories with resource and category funnel
      *
      * @param resource
      *         Resource.
@@ -64,7 +66,7 @@ public class NewsApiRestController {
         final ResourceUrls resourceUrl = ResourceUrls.valueOf(resource);
         final NewsCategories newsCategory = NewsCategories.valueOf(category);
         Validate.notNull(resourceUrl, "The request resource does not exist {}", resource);
-        Validate.notNull(newsCategory, "The com.jmt.geomonitor.integration.news category requested is not available {}", category);
+        Validate.notNull(newsCategory, "The category requested is not available {}", category);
 
         recentlyGeneratedList = newsService.getNewsStories(resourceUrl, newsCategory);
 
@@ -74,5 +76,24 @@ public class NewsApiRestController {
         modelAndView.setViewName("NewsDashboard");
 
         return modelAndView;
+    }
+
+    @RequestMapping(value = "/{id}", method = RequestMethod.GET)
+    public @ResponseBody
+    String getNewsArticle(@PathVariable final Integer id){
+
+        final URL urlResponse;
+
+        if(recentlyGeneratedList != null){
+
+            urlResponse = recentlyGeneratedList.get(id).getUrl();
+
+        }else{
+
+            throw new IllegalArgumentException("Error returning news article");
+        }
+
+        return newsService.getNewsStory(urlResponse);
+
     }
 }

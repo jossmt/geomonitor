@@ -13,6 +13,10 @@
     height: 85%;
 }
 
+.countryInformation{
+    position:absolute;
+}
+
 .map {
     margin: auto;
     margin-top: 52px;

@@ -70,5 +70,6 @@ var map = new ol.Map({
         var pixel = map.getPixelFromCoordinate(e.coordinate);
         map.forEachFeatureAtPixel(pixel, function(feature) {
                 infoBox.innerHTML = feature.get('name');
+                getCountryData(feature.get('name'));
         });
-});
+    });

@@ -9,13 +9,18 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
+
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+import java.util.Map;
 
 /**
  * Country data request controller layer
  */
 @Controller
-@RequestMapping(value = "/map")
+@RequestMapping(value = "/")
 public class CountryDataController {
 
     /** Logger. */
@@ -42,21 +47,33 @@ public class CountryDataController {
      *         Name.
      * @return {@link ModelAndView}
      */
-    @RequestMapping(value = "/{name}", method = RequestMethod.GET)
-    public ModelAndView getCountryData(@PathVariable final String name) {
+    @RequestMapping(value = "/map/{name}", method = RequestMethod.GET)
+    public @ResponseBody CountryDataModel getCountryData(@PathVariable final String name) {
 
         LOG.debug("Returning country data for {}", name);
 
-        final ModelAndView modelAndView = new ModelAndView();
-
         final CountryDataModel countryDataModel = countryDataService.fetchCountryInformationBy(name);
 
-        modelAndView.addObject("countryData", countryDataModel);
-        modelAndView.setViewName("MonitorDashboard");
+        final Response response = Response.ok().entity(countryDataModel).type(MediaType.APPLICATION_JSON).build();
 
         LOG.debug("Exiting controller - returning country data for {}", name);
 
-        return modelAndView;
+        return countryDataModel;
+    }
+
+    /**
+     * Defaults to map
+     *
+     * @param model
+     *         Model objects.
+     * @return HTML page.
+     */
+    @RequestMapping(method = RequestMethod.GET)
+    public String index(Map<String, Object> model) {
+
+        LOG.debug("Default view returned!");
+
+        return "MonitorDashboard";
     }
 
 }

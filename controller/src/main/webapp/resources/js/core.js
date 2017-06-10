@@ -28,13 +28,20 @@ function getCountryData(name){
     $.ajax({
             type: 'GET',
             url: 'http://localhost:8080/geomonitor/map/' + name,
-            dataType: 'html',
+            dataType: 'json',
             success: function(data){
-                updateView(searchKey, data);
-            }
+               window.alert(data.capital);
+               updateCountryInformationView(data);
+            },
+            error: function(){
+                window.alert("Failed");
+               }
         });
 }
 
-function updateCountryInfo(countryData){
-    $('#countryInfo').append(countryData)
+function updateCountryInformationView(data){
+    $('.countryInformation .name').text(data.name);
+    $('.countryInformation .capital').text(data.capital);
+    $('.countryInformation .languages').text(data.languages);
+    $('#flag').attr('src', data.flag);
 }

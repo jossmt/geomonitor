@@ -25,9 +25,17 @@
     <div id="mapContainer" style="text-align: center">
         <div id="map" class="map"></div>
         <div id="info">No countries selected</div>
-        <div id="countryInfo"></div>
     </div>
 
+    <div class="countryInformation" style="text-align: center">
+        <div class="name"/>
+        <div class="capital"/>
+        <div class="currencies"/>
+        <div class="languages"/>
+        <a id="flag" href="#"><img src=""/></a>
+    </div>
+
+    <script src="<c:url value="/resources/js/core.js"/>"></script>
     <script src="<c:url value="/resources/js/defaultMap.js"/>"></script>
 
     </tiles:putAttribute>

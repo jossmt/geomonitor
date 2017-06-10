@@ -1,4 +1,6 @@
-import com.jmt.geomonitor.controller.core.NewsApiRestController;
+package news;
+
+import com.jmt.geomonitor.controller.core.NewsController;
 import com.jmt.geomonitor.domain.model.news.NewsCategories;
 import com.jmt.geomonitor.domain.model.news.NewsStoryModel;
 import com.jmt.geomonitor.domain.model.news.ResourceUrls;
@@ -15,10 +17,10 @@ import java.net.URL;
 import java.util.Arrays;
 
 /**
- * config for {@link NewsApiRestController}
+ * config for {@link NewsController}
  */
 @RunWith(MockitoJUnitRunner.class)
-public class NewsApiRestControllerTest {
+public class NewsControllerTest {
 
     /** Resource url. */
     private ResourceUrls resourceUrl = ResourceUrls.GUARDIAN;
@@ -30,15 +32,15 @@ public class NewsApiRestControllerTest {
     @Mock
     private NewsService newsService;
 
-    /** {@link NewsApiRestController} */
-    private NewsApiRestController newsApiRestController;
+    /** {@link NewsController} */
+    private NewsController newsController;
 
     /**
      * news api rest controller test setup.
      */
     @Before
     public void setUp() {
-        newsApiRestController = new NewsApiRestController(newsService);
+        newsController = new NewsController(newsService);
 
     }
 
@@ -63,7 +65,7 @@ public class NewsApiRestControllerTest {
                 (newsStoryModel));
 
         //config
-        newsApiRestController.getNewsStoriesByCategory("GUARDIAN", "STUDENT");
+        newsController.getNewsStoriesByCategory("GUARDIAN", "STUDENT");
 
         //Verify
         Mockito.verify(newsService).getNewsStories(resourceUrl, newsCategory);

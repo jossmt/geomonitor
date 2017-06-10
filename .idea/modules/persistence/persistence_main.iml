@@ -20,12 +20,17 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.slf4j:slf4j-api:1.7.7" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: ch.qos.logback:logback-core:1.1.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: commons-io:commons-io:2.4" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.8.8" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.8.8" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.8.8" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.deltaspike.modules:deltaspike-data-module-api:1.7.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework:spring-context:4.1.6.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.deltaspike.modules:deltaspike-data-module-impl:1.7.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework:spring-expression:4.1.6.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.springframework:spring-aop:4.1.6.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Gradle: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.0.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.deltaspike.core:deltaspike-core-api:1.7.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.apache.deltaspike.modules:deltaspike-partial-bean-module-api:1.7.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: aopalliance:aopalliance:1.0" level="project" />
