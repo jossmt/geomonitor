@@ -6,31 +6,31 @@
 <tiles:insertDefinition name="defaultTemplate">
     <tiles:putAttribute name="body">
 
+    <!-- core js -->
+    <script src="<c:url value="/resources/js/core.js"/>"></script>
 
-<script src="<c:url value="/resources/js/core.js"/>"></script>
+    <!-- core jquery ui -->
+    <script src="<c:url value="/resources/js/jquery-ui.min.js"/>"></script>
 
 <div class="panel-group" id="accordion">
 
-       <div class="panel panel-default">
         <c:forEach items="${nList}" var="newsStory" varStatus="theCount">
 
 
                 <div class="panel-heading" onclick="findByName(${theCount.index})">
 
-                    <h4 class="panel-title">
-                            <a id = "title${theCount.index}" class = "title" data-toggle="collapse"
-                            data-parent="#accordion" href="#collapse${theCount.index}" class = "collapsed">
+                    <h3 class="title" id="section${theCount.index}">
+                        <c:out value="${newsStory.title}"/> <span class="logoWrapper">
+                    <img id="img" src="${newsStory.urlToImage}"
+                        alt='icon'></span>
+                    </h3>
 
-                                <c:out value="${newsStory.title}"/></a>
-                    </h4>
                     </div>
                         <div id="collapse${theCount.index}" class="panel-collapse collapse">
-
                         <div class="panel-body">
                     </div>
                 </div>
              </c:forEach>
-         </div>
     </div>
 </tiles:putAttribute>
 </tiles:insertDefinition>

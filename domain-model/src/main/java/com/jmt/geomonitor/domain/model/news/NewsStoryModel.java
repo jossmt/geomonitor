@@ -21,7 +21,7 @@ public class NewsStoryModel {
     private URL url;
 
     /** URL to image. */
-    private List<URL> urlToImage;
+    private String urlToImage;
 
     /** Published at. */
     private String publishedAt;
@@ -136,7 +136,7 @@ public class NewsStoryModel {
      * @param urlToImage
      *         New value of URL to image..
      */
-    public void setUrlToImage(List<URL> urlToImage) {
+    public void setUrlToImage(String urlToImage) {
         this.urlToImage = urlToImage;
     }
 
@@ -145,7 +145,7 @@ public class NewsStoryModel {
      *
      * @return Value of URL to image..
      */
-    public List<URL> getUrlToImage() {
+    public String getUrlToImage() {
         return urlToImage;
     }
 

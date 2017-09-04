@@ -25,3 +25,37 @@
 .panel-group {
     margin-top:50px;
 }
+
+#img {width: 16px; height: 16px;}
+
+.title {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.title #img {
+    height: 40px;
+    width: 80px;
+}
+
+.logoWrapper {
+    float: left;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.countryInformation {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
+}
+
+.value {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}

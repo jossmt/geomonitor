@@ -38,7 +38,7 @@ public class NewsServiceHandler implements NewsService {
      * com.jmt.geomonitor.integration.news api integration com.jmt.geomonitor.service constructor.
      *
      * @param newsIntegrationService
-     *         com.jmt.geomonitor.integration.news api integration com.jmt.geomonitor.service.
+     *         news api integration com.jmt.geomonitor.service.
      */
     @Autowired
     public NewsServiceHandler(final GuardianStoryIntegrationMapper guardianStoryIntegrationMapper,

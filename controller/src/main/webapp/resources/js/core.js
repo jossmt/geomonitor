@@ -1,3 +1,14 @@
+$(document).ready(function(){
+
+$("#accordion").accordion({
+             active: false,
+             collapsible: true,
+             heightStyle: "content"
+});
+
+
+});
+
 function findByName(searchKey) {
 
     if($('#title' + searchKey).attr('aria-expanded') == "true"){
@@ -40,8 +51,12 @@ function getCountryData(name){
 }
 
 function updateCountryInformationView(data){
-    $('.countryInformation .name').text(data.name);
-    $('.countryInformation .capital').text(data.capital);
-    $('.countryInformation .languages').text(data.languages);
-    $('#flag').attr('src', data.flag);
+
+    var infoResult = "<div class=\"value name\">" + data.name + "</div>"
+    + "<div class=\"value capital\">" + data.capital + "</div>"
+    + "<div class=\"value currencies\">" + data.currencies + "</div>"
+    + "<div class=\"value languages\">" + data.languages + "</div>"
+    + "<a class=\"value flag\" href=#><img src=" + data.flag + "></a>";
+    $(".countryInformation").html(infoResult);
+
 }

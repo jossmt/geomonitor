@@ -29,10 +29,6 @@ public class GuardianStoryIntegrationModel{
     @XmlElement(name = "guid")
     private URL url;
 
-    /** URL to image. */
-    @XmlElement(name = "media:content")
-    private List<URL> urlToImage;
-
     /** Published at. */
     @XmlElement(name = "dc:date")
     private String publishedAt;
@@ -119,26 +115,6 @@ public class GuardianStoryIntegrationModel{
 
 
     /**
-     * Sets new URL to image..
-     *
-     * @param urlToImage
-     *         New value of URL to image..
-     */
-    public void setUrlToImage(List<URL> urlToImage) {
-        this.urlToImage = urlToImage;
-    }
-
-    /**
-     * Gets URL to image..
-     *
-     * @return Value of URL to image..
-     */
-    public List<URL> getUrlToImage() {
-        return urlToImage;
-    }
-
-
-    /**
      * Gets Published at..
      *
      * @return Value of Published at..
@@ -164,8 +140,7 @@ public class GuardianStoryIntegrationModel{
     public String toString() {
 
         final StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append(title).append(author).append(description).append(publishedAt).append(url).append
-                (urlToImage);
+        stringBuilder.append(title).append(author).append(description).append(publishedAt).append(url);
 
         return stringBuilder.toString();
     }

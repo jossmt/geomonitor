@@ -1,12 +1,15 @@
 package com.jmt.geomonitor.integration.mapper.news;
 
 import com.jmt.geomonitor.domain.model.news.NewsStoryModel;
+import com.jmt.geomonitor.integration.config.LogoConstants;
 import com.jmt.geomonitor.integration.model.news.GuardianStoriesIntegrationModel;
 import com.jmt.geomonitor.integration.model.news.GuardianStoryIntegrationModel;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,9 +25,9 @@ public class GuardianStoryIntegrationMapperHandler implements GuardianStoryInteg
     /**
      * {@inheritDoc}
      */
-    public List<NewsStoryModel> map(GuardianStoriesIntegrationModel guardianStoriesIntegrationModels) {
+    public List<NewsStoryModel> map(GuardianStoriesIntegrationModel guardianStoriesIntegrationModels){
 
-        LOG.debug("Mapping from GUARDIAN stories integration model {} to list of com.jmt.geomonitor.integration.news story model",
+        LOG.debug("Mapping from GUARDIAN stories integration model {} to list of news story model",
                   guardianStoriesIntegrationModels);
 
         List<NewsStoryModel> newsStoryModels = new ArrayList<NewsStoryModel>();
@@ -39,7 +42,7 @@ public class GuardianStoryIntegrationMapperHandler implements GuardianStoryInteg
                 newsStoryModel.setPublishedAt(guardianStoryIntegrationModel.getPublishedAt());
                 newsStoryModel.setTitle(guardianStoryIntegrationModel.getTitle());
                 newsStoryModel.setUrl(guardianStoryIntegrationModel.getUrl());
-                newsStoryModel.setUrlToImage(guardianStoryIntegrationModel.getUrlToImage());
+                newsStoryModel.setUrlToImage(LogoConstants.guardianURL);
                 newsStoryModel.setCopyRight(guardianStoriesIntegrationModels.getCopyRight());
                 newsStoryModels.add(newsStoryModel);
             }

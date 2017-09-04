@@ -3,6 +3,7 @@ package com.jmt.geomonitor.integration.mapper.news;
 import com.jmt.geomonitor.domain.model.news.NewsStoryModel;
 import com.jmt.geomonitor.integration.model.news.GuardianStoriesIntegrationModel;
 
+import java.net.MalformedURLException;
 import java.util.List;
 
 /**

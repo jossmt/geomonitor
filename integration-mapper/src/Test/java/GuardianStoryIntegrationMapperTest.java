@@ -1,5 +1,6 @@
 
 import com.jmt.geomonitor.domain.model.news.NewsStoryModel;
+import com.jmt.geomonitor.integration.config.LogoConstants;
 import com.jmt.geomonitor.integration.mapper.news.GuardianStoryIntegrationMapper;
 import com.jmt.geomonitor.integration.mapper.news.GuardianStoryIntegrationMapperHandler;
 import com.jmt.geomonitor.integration.model.news.GuardianStoriesIntegrationModel;
@@ -40,7 +41,7 @@ public class GuardianStoryIntegrationMapperTest {
         newsStoryModel.setTitle("TestTitle");
         newsStoryModel.setAuthor("TestAuthor");
         newsStoryModel.setDescription("TestDescription");
-        newsStoryModel.setUrlToImage(Arrays.asList(new URL("http://www.TestUrlImg.com")));
+        newsStoryModel.setUrlToImage(LogoConstants.guardianURL);
         newsStoryModel.setUrl(new URL("http://www.TestUrl.com"));
         newsStoryModel.setCopyRight("TestCopyRight");
         newsStoryModel.setPublishedAt("TestPublishedAt");
@@ -49,7 +50,6 @@ public class GuardianStoryIntegrationMapperTest {
         guardianStoryIntegrationModel.setTitle("TestTitle");
         guardianStoryIntegrationModel.setAuthor("TestAuthor");
         guardianStoryIntegrationModel.setDescription("TestDescription");
-        guardianStoryIntegrationModel.setUrlToImage(Arrays.asList(new URL("http://www.TestUrlImg.com")));
         guardianStoryIntegrationModel.setUrl(new URL("http://www.TestUrl.com"));
         guardianStoryIntegrationModel.setPublishedAt("TestPublishedAt");
         final GuardianStoriesIntegrationModel guardianStoriesIntegrationModel = new GuardianStoriesIntegrationModel();

@@ -20,6 +20,13 @@
 </head>
 
 <tiles:insertDefinition name="defaultTemplate">
+
+    <!-- core js -->
+    <script src="<c:url value="/resources/js/core.js"/>"></script>
+
+    <!-- core jquery ui -->
+    <script src="<c:url value="/resources/js/jquery-ui.min.js"/>"></script>
+
     <tiles:putAttribute name="body">
 
     <div id="mapContainer" style="text-align: center">
@@ -27,13 +34,7 @@
         <div id="info">No countries selected</div>
     </div>
 
-    <div class="countryInformation" style="text-align: center">
-        <div class="name"/>
-        <div class="capital"/>
-        <div class="currencies"/>
-        <div class="languages"/>
-        <a id="flag" href="#"><img src=""/></a>
-    </div>
+    <div class="countryInformation" style="text-align: center"></div>
 
     <script src="<c:url value="/resources/js/core.js"/>"></script>
     <script src="<c:url value="/resources/js/defaultMap.js"/>"></script>

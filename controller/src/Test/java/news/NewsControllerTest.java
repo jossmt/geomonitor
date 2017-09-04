@@ -55,7 +55,7 @@ public class NewsControllerTest {
         newsStoryModel.setTitle("TestTitle");
         newsStoryModel.setAuthor("TestAuthor");
         newsStoryModel.setDescription("TestDescription");
-        newsStoryModel.setUrlToImage(Arrays.asList(new URL("http://www.TestUrlImg.com")));
+        newsStoryModel.setUrlToImage("http://www.TestUrlImg.com");
         newsStoryModel.setUrl(new URL("http://www.TestUrl.com"));
         newsStoryModel.setCopyRight("TestCopyRight");
         newsStoryModel.setPublishedAt("TestPublishedAt");
